@@ -1,0 +1,581 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primero: #E2E2E2;
+    --segundo:#BBBAC6;
+    --tercero:#B7CECE;
+    --cuarto: #6E7E85;
+    --quinto:#1C0F13;
+    --lexend: 'Lexend', sans-serif;
+    --over-pass: 'Overpass', sans-serif;
+    --logo-blackrose: 'Vujahday Script';
+}
+/* #####----Header-----(Logo y navegacion)##### */
+.container-fluid{
+    background-color: var(--segundo);
+}
+.navbar{
+    padding: 0px;
+}
+.navbar a:hover{
+    text-decoration: underline;
+    color: var(--tercero);
+}
+#navbarNav{
+    justify-content: end;
+    font-size: 20px;
+}
+.nombre-logo{
+    font-size: 50px;
+    font-family: var(--logo-blackrose);
+}
+
+/* Header-End */
+
+
+/* #####----Main Index-----##### */
+
+main {
+    background-size: cover;
+    background-image: linear-gradient(to bottom, #d7d2cc 0%, #304352 100%);
+}
+main section{
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Overpass', sans-serif;
+}
+
+    /* #####----Descripcion-----##### */
+
+.inicio-container{
+        padding: 20px;
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+}
+
+.descripcion-inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.descripcion-contenido{
+    background-color: var(--tercero);
+    margin: 30px;
+    width: 450px;
+    height: 450px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px #5257dd;
+}
+.descripcion-titulo{
+    padding-bottom: 15px;
+    text-align: center;
+    color: #460580;
+}
+    /* Descripcion-END */
+
+    /* #####----Redes-----##### */
+
+.redes{
+    background-color: var(--tercero);
+    font-size: 20px;
+    width: 400px;
+    height: 230px;
+    margin: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px #6e52dd;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.redes-contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.redes-subtitulo{
+    height: 150px;
+    width: 380px;
+    margin: 10px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+.redes-botones{
+    height: 100px;
+    width: 380px;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.redes-boton{
+    margin: 5px;
+    padding: 10px;
+}
+    /* Redes-END */
+
+    /* #####----Imagenes-INDEX-----##### */
+.imagenes-inicio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+.imagen-contenido {
+    padding: 10px;
+    margin: 10px;
+}
+.imagenes-subtitulo{
+    text-align: center;
+    font-size: 25px;
+    text-shadow: var(--cuarto) 3px 1px 5px;
+}
+.imagenes-tarjeta img{
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: var(--cuarto) 2px 4px 10px;
+}
+    /* Imagenes-INDEX-END */
+/* Main-End */
+
+
+/* #####----FOOTER-----##### */
+
+/* FOOTER-END */
+
+/* #####----SOBRE-MI-----##### */
+/* Titulo con descripcion e imagen */
+.sobre-mi-contenedor{
+    height: 500px;
+    background-image: url("../images/sobre-mi/img-sobremi-banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+}
+.sobre-mi-inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.sobre-mi-titulo{
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px white;
+
+}
+.sobre-mi-texto{
+    font-size: 20px;
+    text-shadow: 1px 1px 2px white;
+
+}
+/* Separador de pagina */
+.separador{
+    background-color: #383954;
+    height: 75px;
+    border: 2px solid rgb(165, 132, 235);
+    box-shadow: 0px 3px 10px rgb(84, 101, 212);
+    background-image: linear-gradient(to bottom, #c7b2f7 0%, #754fdc 100%);
+    border-radius: 10px;
+}
+.separador-texto {
+    color: #6340fc;
+    text-align: end;
+    font-size: 30px;
+    text-shadow: 0px 2px 10px #8443ec;
+}
+.img-client{
+    padding: 10px;
+}
+/* Herramientas */
+.mis-herramientas-contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.herramientas-lista{
+    background-color: var(--tercero);
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+
+}
+.herramientas{
+    background-color: var(--primero);
+    width: 100%;
+    height: 110px;
+    border: 1px solid #7b7ed5;
+    border-radius: 5px;
+    font-size: 30px;
+
+}
+.imagen-herramientas{
+    width: 700px;
+    height: 550px;
+    display: flex;
+}
+
+.imagen-herramientas img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Clientes */
+
+.clientes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.clientes-testimonios{
+    background-color: var(--segundo);
+    border-radius: 5px;
+    margin: 15px;
+}
+
+.clientes-estrellas{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.cliente-img-perfil{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 10px;
+    padding: 5px;
+    font-size: 12px;
+    font-style: italic;
+}
+.clientes-nombre{
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px;
+    padding: 5px;
+}
+.clientes-texto{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+/* Sobre mi-END */
+
+/* #####----Galeria-----##### */
+/* Banner Galeria Ilustracion */
+.galeria-container {
+    width: 100%;
+    height: 300px;
+    background-image: url("../images/Galeria/Banner-Ilustracion.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* Descripcion de los banner */
+.galeria-text{
+    text-align: center;
+    color: #f6f8fb;
+    font-size: 30px;
+}
+/* Separadores de la galeria */
+.separador-galeria{
+    text-align: center;
+    color: black;
+    font-family: 'Lexend', sans-serif;
+    font-style: italic;
+    padding: 10px;
+    background-image: linear-gradient(to bottom, #ece7f8 0%, #beaded 100%);
+}
+/* Banner Galeria Modelado 3D */
+.galeria-container-3d{
+    width: 100%;
+    height: 300px;
+    background-image: url("../images/Galeria/Modelado-3D\ -banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* Banner Galeria UX/UI */
+.galeria-container-ux{
+    width: 100%;
+    height: 300px;
+    background-image: url("../images/Galeria/UX-ui-banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* Galeria END */
+
+/* #####----Contacto-----##### */
+
+/* Fondo de la pantalla */
+.container-contacto{
+    background-image: url("../images/Contacto/Correos.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Descripcion de contactos */
+.title-contacto{
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    color: var(--primero);
+    text-shadow: 1px 2px 2px black;
+
+}
+/* Esto es el formulario */
+.formulario{
+    background-color: var(--tercero);
+    width: auto;
+    height: 650px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px #5257dd;
+
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+}
+.form-placeholder{
+    font-size: 18px;
+    background-color: var(--segundo);
+    margin-top: 10px;
+    width: 100%;
+    height: 55px;
+    padding: 6px;
+    border-radius: 5px;
+    border: 2px solid var(--cuarto);
+    color: var(--tercero);
+}
+.form-text-area{
+
+}
+.form-container-area{
+    font-size: 18px;
+    background-color: var(--segundo);
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+    padding: 6px;
+    border-radius: 5px;
+    border: 2px solid var(--cuarto);
+    color: var(--tercero);
+}
+.form-enviar {
+
+
+}
+.submit-button{
+    background-color: #7b7ed5;
+    text-decoration: none;
+    font-family: var(--over-pass);
+    width: 70px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 10px;
+}
+/* El Iframe de youtube */
+.container-iframe{
+    background-color: var(--tercero);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #5257dd;
+    margin-top: 10px;
+    width: 600px;
+    height: 400px;
+    text-align: center;
+}
+
+/* Contacto-END */
+
+/* #####----Servicios-----##### */
+/* Banner de servicios */
+.banner-ser{
+    background-image: url("../images/Servicios/Banner-serv.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 400px;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 2px 3px 5px rgb(101, 34, 246);
+}
+/* Contenedor del logo de Ilustracion */
+.container-il{
+    background-color: #5257dd;
+    width: 180px;
+    height: 200px;
+    margin: 30px;
+    padding-top: 15px;
+    border-radius: 10px;
+    text-align: center;
+    text-shadow: 2px 3px 3px rgb(207, 179, 250);
+    font-family: var(--over-pass);
+    font-size: 25px;
+
+}
+/* Contenedor del logo de MODELADO 3D */
+.container-3d{
+    background-color: #5257dd;
+    width: 180px;
+    height: 200px;
+    margin: 30px;
+    padding-top: 15px;
+    border-radius: 10px;
+    text-align: center;
+    text-shadow: 2px 3px 3px rgb(207, 179, 250);
+    font-family: var(--over-pass);
+    font-size: 25px;
+}
+/* Contenedor del logo de UX/UI */
+.container-ux{
+    background-color: #5257dd;
+    width: 180px;
+    height: 200px;
+    margin: 30px;
+    padding-top: 15px;
+    border-radius: 10px;
+    text-align: center;
+    text-shadow: 2px 3px 3px rgb(207, 179, 250);
+    font-family: var(--over-pass);
+    font-size: 25px;
+}
+
+.container-servicios{
+    display: flex;
+
+}
+/* Contenedores de los Logos */
+.container-precios-3d{
+    left: 42%;
+    top: 400px;
+}
+.container-precios-ux{
+}
+/* Fondo de la lista de precios */
+.container-list{
+    background-color: var(--segundo);
+    width: 350px;
+    height: 600px;
+    border-radius: 20px;
+}
+/* Contenedores de las listas */
+.lista{
+    background-color: var(--tercero);
+    width: 300px;
+    height: 570px;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    list-style-type: none;
+}
+/* Contenedores de los precios */
+.precios-list{
+    background-color: var(--primero);
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-family: var(--over-pass);
+    font-size: 15px;
+    font-weight: 5px;
+
+}
+/* Comentario en los precios */
+.precios-readme{
+    background-color: var(--primero);
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-family: var(--over-pass);
+    font-size: 15px;
+    font-weight: 5px;
+}
+/* Banner de preguntas frecuentes */
+
+.faq-banner{
+    background-image: url("../images/Servicios/faq\ banner.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1080;
+    height: 200px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 3px 5px rgb(55, 33, 107);
+}
+/* Contenedor de las preguntas frecuentes */
+.container-preguntas{
+    background-color: var(--tercero);
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+/* Contenedor de las preguntas */
+.pregunta{
+        font-size: 18px;
+        font-weight: bold;
+        text-align: end;
+        margin:5px
+
+}
+/* Contenedor de las respuestas */
+.container-resp{
+    background-color: var(--segundo);
+    border: 1px solid black;
+    margin-top: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+/* Servicios fin */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
