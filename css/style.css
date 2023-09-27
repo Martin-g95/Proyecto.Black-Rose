@@ -49,37 +49,36 @@ main section{
 
     /* #####----Descripcion-----##### */
 
-.inicio-container{
-        padding: 20px;
-        width: auto;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
 
-}
+
 
 .descripcion-inicio {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
 .descripcion-contenido{
     background-color: var(--tercero);
-    margin: 30px;
+    margin-top: 37px;
+    max-width: 100%;
     width: 450px;
     height: 450px;
     padding: 30px;
     border-radius: 20px;
     box-shadow: 0px 0px 5px #5257dd;
 }
+
 .descripcion-titulo{
     padding-bottom: 15px;
     text-align: center;
     color: #460580;
+}
+.descripcion-texto{
+    width: auto;
+    height: auto;
 }
     /* Descripcion-END */
 
@@ -88,13 +87,14 @@ main section{
 .redes{
     background-color: var(--tercero);
     font-size: 20px;
-    width: 400px;
+    max-width: 100%;
+    width: 416px;
     height: 230px;
-    margin: 30px;
     border-radius: 20px;
     box-shadow: 0px 0px 5px #6e52dd;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    padding: 10px;
 }
 
 .redes-contenido{
@@ -109,7 +109,8 @@ main section{
     margin: 10px;
     padding: 15px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    width: auto;
 }
 .redes-botones{
     height: 100px;
@@ -137,6 +138,7 @@ main section{
 
 
 .imagen-contenido {
+    width: 100%;
     padding: 10px;
     margin: 10px;
 }
@@ -563,9 +565,15 @@ main section{
 }
 /* Servicios fin */
 
+/* Media queries */
 
+/* Index queries */
+@media (min-width:1024px) and (max-width:1600px){
+    .descripcion-contenido{
+        height: auto;
+    }
 
-
+}
 
 
 
