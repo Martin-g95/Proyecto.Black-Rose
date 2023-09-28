@@ -12,6 +12,7 @@
     --lexend: 'Lexend', sans-serif;
     --over-pass: 'Overpass', sans-serif;
     --logo-blackrose: 'Vujahday Script';
+    --titulo-sobremi: 'Dela Gothic One';
 }
 /* #####----Header-----(Logo y navegacion)##### */
 .container-fluid{
@@ -55,10 +56,10 @@ main section{
 
 .descripcion-contenido{
     background-color: var(--tercero);
-    margin: 80px 20px 80px 30px;
+    margin: 80px 20px 80px 20px;
     max-width: 100%;
-    width: 380px;
-    height: 450px;
+    width: 350px;
+    height: 520px;
     padding: 30px;
     border-radius: 20px;
     box-shadow: 0px 0px 5px #5257dd;
@@ -114,19 +115,31 @@ main section{
 .sobre-mi-inicio {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    justify-content: end;
+    align-items: start;
+    text-align: start;
+    
+}
+.sobre-mi-textos{
+    margin: 10px;
+    background-color:rgba(123, 188, 241, 0.30);
+    border-radius: 20px;
+    border: 1px solid rgba(123, 188, 241, 0.30);
+    box-shadow: 0px 0px 10px black;
+    backdrop-filter: blur(1px);
+    width: 75%;
+
 }
 .sobre-mi-titulo{
     font-weight: bold;
-    font-size: 20px;
-    text-shadow: 1px 1px 2px white;
+    font-size: 15px;
+    font-family: var(--titulo-sobremi);
+    color: #304352;
 
 }
 .sobre-mi-texto{
-    font-size: 20px;
-    text-shadow: 1px 1px 2px white;
+    font-weight: bold;
+    font-size: 16px;
 
 }
 /* Separador de pagina */
@@ -155,7 +168,6 @@ main section{
 
 }
 .herramientas-lista{
-    background-color: var(--tercero);
     display: flex;
     flex-direction: column;
     list-style: none;
@@ -168,6 +180,9 @@ main section{
     border: 1px solid #7b7ed5;
     border-radius: 5px;
     font-size: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
 
 }
 .imagen-herramientas{
@@ -187,7 +202,7 @@ main section{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
 }
 .clientes-testimonios{
     background-color: var(--segundo);
