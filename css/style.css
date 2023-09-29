@@ -242,7 +242,7 @@ main section{
 
 /* #####----Galeria-----##### */
 /* Banner Galeria Ilustracion */
-.galeria-container {
+.galeria-container-il {
     width: 100%;
     height: 300px;
     background-image: url("../images/Galeria/Banner-Ilustracion.jpg");
@@ -250,13 +250,40 @@ main section{
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* Descripcion de los banner */
 .galeria-text{
     text-align: center;
     color: #f6f8fb;
     font-size: 30px;
+
 }
+/* Galeria-grid */
+
+.galeria-imagenes{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    place-content: center;
+    gap: 5px;
+}
+.imagen img{
+    width: 100%;
+    border-radius: 5px;
+}
+.imagen{
+    margin: 5px;
+}
+.galeria{
+    margin: 20px 0 20px 0;
+}
+.galeria .contenedor{
+    display: grid;
+}
+
 /* Separadores de la galeria */
 .separador-galeria{
     text-align: center;
@@ -275,6 +302,9 @@ main section{
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* Banner Galeria UX/UI */
 .galeria-container-ux{
@@ -285,6 +315,9 @@ main section{
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* Galeria END */
 
@@ -561,6 +594,41 @@ main section{
         justify-content: center;
         align-items: center;
     }
+}
+/* Media queries-galeria */
+@media (min-width:320px){
+    .galeria .galeria-imagenes{
+        grid-template-columns: repeat(2,50%);
+    }
+}
+
+@media (min-width:1024px){
+    .galeria .galeria-imagenes{
+        grid-template-columns: repeat(3,25%);
+    }
+    .galeria-imagenes{
+        width: 1024px;
+    }
+}
+@media (min-width:1200px){
+    .galeria-imagenes{
+        width: 1200px;
+    }
+}
+/* Banners de galeria */
+@media (max-width:400px){
+    .galeria-container-il{
+        height: 200px;
+    }
+    .galeria-container-3d{
+        height: 200px;
+
+    }
+    .galeria-container-ux{
+        height: 200px;
+
+    }
+
 }
 
 
