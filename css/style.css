@@ -598,7 +598,7 @@ text-transform: none;
     grid-template-columns: repeat(3,33%);
     grid-template-rows: repeat(3,33%);
     gap: 15px;
-    padding: 30px;
+    padding: 31px;
 }
 .contenedor-preguntas{
     background-color: var(--tercero);
