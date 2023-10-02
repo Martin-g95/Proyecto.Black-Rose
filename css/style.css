@@ -486,103 +486,94 @@ text-transform: none;
 /* Contacto-END */
 
 /* #####----Servicios-----##### */
-/* Banner de servicios */
-.banner-ser{
+
+/* Fondo de seccion de servicios */
+.fondo-precios{
     background-image: url("../images/Servicios/Banner-serv.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
+}
+.servicios-precios{
     width: auto;
-    height: 400px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 875px;
+}
+.servicios-titulo{
     text-align: center;
     font-size: 50px;
     text-shadow: 2px 3px 5px rgb(101, 34, 246);
 }
-/* Contenedor del logo de Ilustracion */
-.container-il{
-    background-color: #5257dd;
-    width: 180px;
-    height: 200px;
-    margin: 30px;
-    padding-top: 15px;
-    border-radius: 10px;
-    text-align: center;
-    text-shadow: 2px 3px 3px rgb(207, 179, 250);
-    font-family: var(--over-pass);
-    font-size: 25px;
-
-}
-/* Contenedor del logo de MODELADO 3D */
-.container-3d{
-    background-color: #5257dd;
-    width: 180px;
-    height: 200px;
-    margin: 30px;
-    padding-top: 15px;
-    border-radius: 10px;
-    text-align: center;
-    text-shadow: 2px 3px 3px rgb(207, 179, 250);
-    font-family: var(--over-pass);
-    font-size: 25px;
-}
-/* Contenedor del logo de UX/UI */
-.container-ux{
-    background-color: #5257dd;
-    width: 180px;
-    height: 200px;
-    margin: 30px;
-    padding-top: 15px;
-    border-radius: 10px;
-    text-align: center;
-    text-shadow: 2px 3px 3px rgb(207, 179, 250);
-    font-family: var(--over-pass);
-    font-size: 25px;
-}
-
-.container-servicios{
-    display: flex;
-
-}
 /* Contenedores de los Logos */
-.container-precios-3d{
-    left: 42%;
-    top: 400px;
+.contenedor-logo{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
 }
-.container-precios-ux{
+.precio-logo{
+    background-color: #5257dd;
+    width: 180px;
+    height: 230px;
+    padding-top: 15px;
+    border-radius: 10px;
 }
-/* Fondo de la lista de precios */
-.container-list{
-    background-color: var(--segundo);
-    width: 350px;
-    height: 600px;
-    border-radius: 20px;
+.texto-logo{
+    text-align: center;
+    text-shadow: 2px 3px 3px rgb(207, 179, 250);
+    font-family: var(--over-pass);
+    font-size: 25px;
 }
+.imagen-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Contenedor de la lista de precios */
+
+
 /* Contenedores de las listas */
-.lista{
+.contenedor-listas{
+    display: flex;
+    justify-content: center;
+    margin:10px
+}
+.precios-listas{
+    width: 320px;
+    height: 600px;
+}
+.listas{
     background-color: var(--tercero);
-    width: 300px;
-    height: 570px;
-    margin: 20px;
+    width: 100%;
+    height: 550PXpx;
     padding: 15px;
     border-radius: 20px;
     list-style-type: none;
 }
 /* Contenedores de los precios */
-.precios-list{
+.precio{
     background-color: var(--primero);
-    margin: 20px;
+    margin: 10px;
     padding: 5px;
     border-radius: 10px;
     border: 1px solid black;
     font-family: var(--over-pass);
     font-size: 15px;
     font-weight: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
 }
 /* Comentario en los precios */
-.precios-readme{
+.precio-readme{
     background-color: var(--primero);
-    margin: 20px;
+    margin: 10px;
     padding: 5px;
     border-radius: 10px;
     border: 1px solid black;
@@ -597,7 +588,7 @@ text-transform: none;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 1080;
+    width: 100%;
     height: 200px;
     text-align: center;
     font-size: 50px;
@@ -719,14 +710,3 @@ text-transform: none;
         width: 300px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
