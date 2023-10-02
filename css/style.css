@@ -15,7 +15,7 @@
     --titulo-sobremi: 'Dela Gothic One';
 }
 /* #####----Header-----(Logo y navegacion)##### */
-.container-fluid{
+header .container-fluid{
     background-color: var(--segundo);
 }
 .navbar{
@@ -494,6 +494,7 @@ text-transform: none;
     background-size: cover;
     background-repeat: no-repeat;
 }
+/* Contenedor de los productos */
 .servicios-precios{
     width: auto;
     height: auto;
@@ -570,18 +571,13 @@ text-transform: none;
     justify-content: space-between;
 
 }
-/* Comentario en los precios */
-.precio-readme{
-    background-color: var(--primero);
-    margin: 10px;
-    padding: 5px;
-    border-radius: 10px;
-    border: 1px solid black;
-    font-family: var(--over-pass);
-    font-size: 15px;
-    font-weight: 5px;
+/* Seccion de preguntas frecuentes*/
+
+.seccion-faq{
+    width: 100%;
+    height: 100%px;
 }
-/* Banner de preguntas frecuentes */
+    /* Banner de preguntas frecuentes */
 
 .faq-banner{
     background-image: url("../images/Servicios/faq\ banner.jpg");
@@ -596,35 +592,59 @@ text-transform: none;
     color: rgb(255, 255, 255);
     text-shadow: 2px 3px 5px rgb(55, 33, 107);
 }
-/* Contenedor de las preguntas frecuentes */
-.container-preguntas{
+/* Contenedor del faq */
+.cartas-faq{
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    grid-template-rows: repeat(3,33%);
+    gap: 15px;
+    padding: 30px;
+}
+.contenedor-preguntas{
     background-color: var(--tercero);
-    width: 350px;
-    height: 200px;
     border-radius: 10px;
     border: 2px solid black;
+    width: 400px;
+    height: 270px;
 }
+
 /* Contenedor de las preguntas */
-.pregunta{
+.contenedor-pregunta{
+    display: grid; 
+    grid-template-columns: 100px 150px;
+    grid-template-rows: 100px 150px;
+    gap: 5px;
+
+}
+.texto-pregunta{
         font-size: 18px;
         font-weight: bold;
         text-align: end;
-        margin:5px
+        margin:10px;
+        text-decoration: underline;
+        grid-column: 2/ span 4;;
+}
+.icono-pregunta{
+    margin: 5px;
 
 }
 /* Contenedor de las respuestas */
-.container-resp{
+.texto-respuesta{
     background-color: var(--segundo);
     border: 1px solid black;
-    margin-top: 5px;
-    margin: 5px;
+    margin: 10px;
+    height: auto;
     border-radius: 10px;
     text-align: center;
+    grid-column: 1/ span 3;
 }
 /* Servicios fin */
 
 /* #####----Footer-----##### */
-
+.footer .container{
+    background-color: #7b7ed5;
+    
+}
 /* Boton de redes */
     .redes-contenido{
         display: flex;
