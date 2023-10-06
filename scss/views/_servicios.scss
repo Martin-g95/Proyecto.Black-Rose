@@ -1,0 +1,145 @@
+/* #####----Servicios-----##### */
+
+/* Fondo de seccion de servicios */
+.fondo-precios{
+    background-image: url("../images/Servicios/Banner-serv.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .servicios-titulo{
+        text-align: center;
+        font-size: 50px;
+        text-shadow: 2px 3px 5px rgb(101, 34, 246);
+    }
+}
+
+/* Seccion de las listas */
+.servicios-precios{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 875px;
+    /* Contenedores de los Logos */
+    .contenedor-logo{
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+        .precio-logo{
+            background-color: #5257dd;
+            width: 180px;
+            height: 230px;
+            padding-top: 15px;
+            border-radius: 10px;
+            .texto-logo{
+                text-align: center;
+                text-shadow: 2px 3px 3px rgb(207, 179, 250);
+                font-family: var(--over-pass);
+                font-size: 25px;
+            }
+            .imagen-logo{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+        /* Contenedor de la lista de precios */
+    .contenedor-listas{
+        display: flex;
+        justify-content: center;
+        margin:10px;
+        .precios-listas{
+            width: 320px;
+            height: 600px;
+            /* Contenedores de las listas */
+            .listas{
+                background-color: var(--tercero);
+                width: 100%;
+                height: 550PXpx;
+                padding: 15px;
+                border-radius: 20px;
+                list-style-type: none;
+                /* Contenedores de los precios */
+                .precio{
+                    background-color: var(--primero);
+                    margin: 10px;
+                    padding: 5px;
+                    border-radius: 10px;
+                    border: 1px solid black;
+                    font-family: var(--over-pass);
+                    font-size: 15px;
+                    font-weight: 5px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                }
+            }
+        }
+    }
+}
+
+/* Seccion de preguntas frecuentes*/
+
+.seccion-faq{
+    width: 100%;
+    height: 100%;
+    /* Banner de preguntas frecuentes */
+    .faq-banner{
+        background-image: url("../images/Servicios/faq\ banner.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 200px;
+        text-align: center;
+        font-size: 50px;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 3px 5px rgb(55, 33, 107);
+    }
+    /* Contenedor del faq */
+    .cartas-faq{
+        display: grid;
+        grid-template-columns: repeat(3,33%);
+        grid-template-rows: repeat(3,33%);
+        gap: 15px;
+        padding: 30px;
+        /* Contenedor de las preguntas */
+        .contenedor-preguntas{
+            background-color: var(--tercero);
+            border-radius: 10px;
+            border: 2px solid black;
+            width: 400px;
+            height: 270px;
+            .contenedor-pregunta{
+                display: grid; 
+                grid-template-columns: 100px 150px;
+                grid-template-rows: 100px 150px;
+                gap: 5px;
+                .icono-pregunta{
+                    margin: 5px;
+                }
+                .texto-pregunta{
+                        font-size: 18px;
+                        font-weight: bold;
+                        text-align: end;
+                        margin:10px;
+                        text-decoration: underline;
+                        grid-column: 2/ span 4;;
+                }
+                .texto-respuesta{
+                    background-color: var(--segundo);
+                    border: 1px solid black;
+                    margin: 10px;
+                    height: auto;
+                    border-radius: 10px;
+                    text-align: center;
+                    grid-column: 1/ span 3;
+                }
+            }
+        }
+    }
+}

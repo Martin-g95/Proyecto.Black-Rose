@@ -1,0 +1,42 @@
+
+    /* #####----Descripcion-----##### */
+
+    .descripcion-contenido{
+        background-color: var(--tercero);
+        margin: 80px 20px 80px 20px;
+        max-width: 100%;
+        width: 350px;
+        height: 520px;
+        padding: 30px;
+        border-radius: 20px;
+        box-shadow: 0px 0px 5px #5257dd;
+        .descripcion-titulo{
+            padding-bottom: 15px;
+            text-align: center;
+            color: #460580;
+        }
+        .descripcion-texto{
+            width: auto;
+            height: auto;
+        }
+    }
+    
+        /* #####----Imagenes-INDEX-----##### */
+    
+    .imagen-contenido {
+        width: 200px;
+        height: 700px;
+        padding: 10px;
+        margin: 30px;
+        .imagenes-subtitulo{
+            text-align: center;
+            font-size: 25px;
+            text-shadow: var(--cuarto) 3px 1px 5px;
+        }
+        .imagenes-tarjeta img{
+            border: 1px solid black;
+            border-radius: 10px;
+            box-shadow: var(--cuarto) 2px 4px 10px;
+        }
+    }
+    

@@ -16,6 +16,20 @@
   --titulo-sobremi: "Dela Gothic One";
 }
 
+main {
+  background-size: cover;
+  background-image: linear-gradient(to bottom, #d7d2cc 0%, #304352 100%);
+}
+
+main section {
+  font-family: "Lexend", sans-serif;
+  font-family: "Overpass", sans-serif;
+}
+
+.container .inicio {
+  width: 100%;
+}
+
 /* #####----Header-----(Logo y navegacion)##### */
 header .container-fluid {
   background-color: var(--segundo);
@@ -41,21 +55,6 @@ header .container-fluid {
 }
 
 /* Header-End */
-/* #####----Main Index-----##### */
-main {
-  background-size: cover;
-  background-image: linear-gradient(to bottom, #d7d2cc 0%, #304352 100%);
-}
-
-main section {
-  font-family: "Lexend", sans-serif;
-  font-family: "Overpass", sans-serif;
-}
-
-.container .inicio {
-  width: 100%;
-}
-
 /* #####----Descripcion-----##### */
 .descripcion-contenido {
   background-color: var(--tercero);
@@ -77,7 +76,6 @@ main section {
   height: auto;
 }
 
-/* Descripcion-END */
 /* #####----Imagenes-INDEX-----##### */
 .imagen-contenido {
   width: 200px;
@@ -96,10 +94,6 @@ main section {
   box-shadow: var(--cuarto) 2px 4px 10px;
 }
 
-/* Imagenes-INDEX-END */
-/* Main-End */
-/* #####----FOOTER-----##### */
-/* FOOTER-END */
 /* #####----SOBRE-MI-----##### */
 /* Titulo con descripcion e imagen */
 .sobre-mi-contenedor {
@@ -137,7 +131,7 @@ main section {
   font-size: 16px;
 }
 
-/* Separador de pagina */
+/* Separador de pagina sobre mi */
 .separador {
   background-color: #383954;
   height: 75px;
@@ -228,7 +222,6 @@ main section {
   font-style: italic;
 }
 
-/* Sobre mi-END */
 /* #####----Galeria-----##### */
 /* Banner Galeria Ilustracion */
 .galeria-container-il {
@@ -308,7 +301,6 @@ main section {
   align-items: center;
 }
 
-/* Galeria END */
 /* #####----Contacto-----##### */
 /* Fondo de la pantalla */
 .container-contacto {
@@ -472,7 +464,6 @@ main section {
   height: 100%;
 }
 
-/* Contacto-END */
 /* #####----Servicios-----##### */
 /* Fondo de seccion de servicios */
 .fondo-precios {
@@ -617,7 +608,6 @@ main section {
   grid-column: 1/span 3;
 }
 
-/* Servicios fin */
 /* #####----Footer-----##### */
 .footer .container {
   background-color: #7b7ed5;
@@ -646,8 +636,6 @@ main section {
   padding: 5px;
 }
 
-/* boton de redes-END */
-/* Footer-END */
 /* Media queries */
 /* Index queries */
 /* Descripcion de contenido */

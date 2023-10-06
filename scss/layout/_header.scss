@@ -1,0 +1,21 @@
+/* #####----Header-----(Logo y navegacion)##### */
+header .container-fluid{
+    background-color: var(--segundo);
+}
+.navbar{
+    padding: 0px;
+}
+.navbar a:hover{
+    text-decoration: underline;
+    color: var(--tercero);
+}
+#navbarNav{
+    justify-content: end;
+    font-size: 20px;
+}
+.nombre-logo{
+    font-size: 50px;
+    font-family: var(--logo-blackrose);
+}
+
+/* Header-End */

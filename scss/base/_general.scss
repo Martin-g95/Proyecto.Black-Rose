@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primero: #E2E2E2;
+    --segundo:#BBBAC6;
+    --tercero:#B7CECE;
+    --cuarto: #6E7E85;
+    --quinto:#1C0F13;
+    --lexend: 'Lexend', sans-serif;
+    --over-pass: 'Overpass', sans-serif;
+    --logo-blackrose: 'Vujahday Script';
+    --titulo-sobremi: 'Dela Gothic One';
+}
+
+main {
+    background-size: cover;
+    background-image: linear-gradient(to bottom, #d7d2cc 0%, #304352 100%);
+}
+main section{
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Overpass', sans-serif;
+}
+.container .inicio{
+    width: 100%;
+}

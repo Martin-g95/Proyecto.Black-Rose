@@ -1,0 +1,75 @@
+/* #####----Galeria-----##### */
+/* Banner Galeria Ilustracion */
+.galeria-container-il {
+    width: 100%;
+    height: 300px;
+    background-image: url("../images/Galeria/Banner-Ilustracion.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Descripcion de los banner */
+    .galeria-text{
+        text-align: center;
+        color: #f6f8fb;
+        font-size: 30px;
+    }
+}
+/* Separadores de la galeria */
+.separador-galeria{
+    text-align: center;
+    color: black;
+    font-family: 'Lexend', sans-serif;
+    font-style: italic;
+    padding: 10px;
+    background-image: linear-gradient(to bottom, #ece7f8 0%, #beaded 100%);
+}
+/* Galeria-grid */
+.galeria{
+    margin: 20px 0 20px 0;
+    display: grid;
+    .galeria-imagenes{
+        width: 100%;
+        margin: auto;
+        display: grid;
+        place-content: center;
+        gap: 5px;
+        .imagen{
+            margin: 5px;
+        }
+        .imagen img{
+            width: 100%;
+            border-radius: 5px;
+        }
+    }
+}
+
+/* Banner Galeria Modelado 3D */
+.galeria-container-3d{
+    width: 100%;
+    height: 300px;
+    background-image: url("../images/Galeria/Modelado-3D\ -banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Banner Galeria UX/UI */
+.galeria-container-ux{
+    width: 100%;
+    height: 300px;
+    background-image: url("../images/Galeria/UX-ui-banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
