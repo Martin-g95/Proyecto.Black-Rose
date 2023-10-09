@@ -1,15 +1,15 @@
-$color-fondo: dark;
+// $color-fondo: dark;
 
-@if $color-fondo == dark{
-    body{
-        background-color: black;
-    }
-}@else if $color-fondo == light {
-    body{
-        background-color: rgb(115, 211, 255);
-    }
-} @else {
-    body{
-        background-color: rgb(214, 164, 164);
-    }
-}
+// @if $color-fondo == dark{
+//     body{
+//         background-color: black;
+//     }
+// }@else if $color-fondo == light {
+//     body{
+//         background-color: rgb(115, 211, 255);
+//     }
+// } @else {
+//     body{
+//         background-color: rgb(214, 164, 164);
+//     }
+// }
