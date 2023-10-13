@@ -48,10 +48,104 @@
     }
 }
 
+/* Media queries---SOBRE MI */
+
+/* Media queries-- descripcion */
+
+@media (max-width:400px){
+    .sobre-mi-contenedor{
+        .sobre-mi-textos{
+            width: 300px;
+            margin: 0px 0px 50px 40px;
+            .sobre-mi-texto{
+                font-size: 15px;
+            }
+        }
+        
+    }
+}
+@media (max-width:400px){
+    .herramientas-inicio{
+        .herramientas-subtitulo{
+            width: 350px;
+            margin: 10px 10px;
+            text-align: center;
+        }
+    }
+}
+@media (max-width:400px){
+        .herramientas-contenedor{
+            .herramientas-items{
+                border-radius: 10px;
+                width: 350px;
+                border-radius:10px 10px 0px 0px ;
+            }
+            .imagen-herramienta{
+                width: 350px;
+                height: 350px;
+                border-radius: 0px 0px 10px 10px;
+            }
+        }
+}
+
+@media (max-width:400px){
+    .section-clientes{
+        .titulo-clientes{
+            width: 350px;
+        }
+        .clientes{
+            .clientes-testimonios{
+                width: 350px;
+                .cliente-perfil{
+                    width: 350px;
+                    .nombre-cliente{
+                        font-size: 25px;
+                    }
+                    .rol-cliente{
+                        font-size: 15px;
+                    }
+                    .imagen-cliente{
+                        width: 100px;
+                        height: 100px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
 /* Media queries--- Contacto--- */
+
+@media (max-width:400px){
+    .formulario-general{
+        .contacto-form{
+        width: 350px;
+        margin-left: 25px;
+        border-radius: 20px 20px 0px 0px;
+        height: 800px;
+        .title-contacto{
+            padding: 0;
+        }
+        .redes-sociales{
+            flex-direction: column;
+            .botones-redes{
+                height: 75px;
+                width: 75px;
+                margin: 5px
+            }
+        }
+        }
+        .formulario{
+            width: 350px;
+            margin: 0px 25px 20px 25px;
+            border-radius: 0px 0px 20px 20px ;
+        }
+    }
+}
 @media (max-width:600px){
     .container-iframe{
-        width:400px
+        width:400px;
     }
 }
 @media (max-width:400px){

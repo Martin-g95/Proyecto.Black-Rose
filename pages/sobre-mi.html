@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,6 +18,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Vujahday+Script&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Oswald:wght@200;400&display=swap" rel="stylesheet">
     <!-- bootstrap -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
@@ -68,44 +71,51 @@
     <main>
         <!-- Sobre mi descripcion -->
         <section class="sobre-mi-contenedor">
-            <div class="sobre-mi-inicio">
                 <div class="sobre-mi-textos">
-                    <div class="sobre-mi-titulo">
-                        <h1>QUIEN SOY</h1>
-                    </div>
-                    <div class="sobre-mi-texto">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero voluptates laborum obcaecati, natus distinctio illo modi totam assumenda recusandae debitis dolor a. Alias obcaecati eius accusamus inventore expedita? Laboriosam, odio?
-                            Provident sint nam blanditiis, dis nihil odio repudiandae voluptas animi quia dicta soluta magnam dolore, quidem repellat ut nesciunt.</p>
-                    </div>
+                        <h1 class="sobre-mi-titulo">Quien Soy</h1>
+                        <p class="sobre-mi-texto">Soy una apasionada ilustradora digital con una amplia gama de estilos y técnicas a mi disposición. Mi amor por el arte comenzó desde una edad temprana y ha crecido junto conmigo. Me especializo en dar vida a ideas y conceptos, transformándolos en imágenes visuales cautivadoras. Mi objetivo es capturar la esencia de tus ideas y plasmarlas en ilustraciones que no solo sean atractivas, sino que también cuenten una historia. Si estás buscando un ilustrador que pueda dar vida a tus ideas, ¡estás en el lugar correcto!</p>
+                </div>
+        </section>
+        <!-- Herramientas -->
+
+        <!-- Estos son las herramientas que utiliza el diseñador -->
+        <section class="herramientas-inicio" >
+            <div class="herramientas-subtitulo">
+                <h2 class="herramientas-sub">Mis herramientas</h2>
+                <p class="herramientas-text"> Manejo varias herramientas muy versatiles en todos los trabajos que realizo, por si necesitas usar algun tipo de tecnologia especifica, te muestro las que yo uso para realizar los proyectos que llevo a cabo, ya sea para el dibujo, el modelado 3D, o los proyectos de UX/UI que se enfocan en logotipos o interfaces.</p>
+            </div>
+        </section>
+        <section class="herramientas-contenedor">
+            <div class="herramientas-items">
+                <div class="item">
+                    <p class="item-texto">Blender</p>
+                    <img src="../images/Iconos/icons8-blender-3d-96.png" alt="">
+                </div>
+                <div class="item">
+                    <p class="item-texto">Figma</p>
+                    <img src="../images/Iconos/icons8-figma-96.png" alt="">
+                </div>
+                <div class="item">
+                    <p class="item-texto">Clip Paint Studio</p>
+                    <img src="../images/Iconos/icons8-clip-studio-paint-96.png" alt="">
+                </div>
+                <div class="item">
+                    <p class="item-texto">Krita</p>
+                    <img src="../images/Iconos/icons8-krita-96.png" alt="">
+                </div>
+                <div class="item">
+                    <p class="item-texto">Photoshop</p>
+                    <img src="../images/Iconos/icons8-photoshop-96.png" alt="">
                 </div>
             </div>
-        </section>
-        <!-- Esto es un separador -->
-        <section>
-            <div class="separador">
-                <h2 class="separador-texto">Mis herramientas</h2>
-            </div>
-        </section>
-        <!-- Estos son las herramientas que utiliza el diseñador -->
-        <section class="mis-herramientas-contenedor">
-            <div class="mis-herramientas">
-                <ul class="herramientas-lista">
-                    <li class="herramientas"><img src="../images/Iconos/icons8-figma-96.png" alt="Figma"><p>Figma</p></li>
-                    <li class="herramientas"><img src="../images/Iconos/icons8-clip-studio-paint-96.png" alt="Clip Pain Studio"><p>Clip Pain Studio</p></li>
-                    <li class="herramientas"><img src="../images/Iconos/icons8-krita-96.png" alt=""><p>Krita</p></li>
-                    <li class="herramientas"><img src="../images/Iconos/icons8-blender-3d-96.png" alt="Blender"><p>Blender</p></li>
-                    <li class="herramientas"><img src="../images/Iconos/icons8-photoshop-96.png" alt="Phosohop"><p>Photoshop</p></li>
-                </ul>
-            </div>
-            <div class="imagen-herramientas">
-                <img src="../images/sobre-mi/Escritorio.jpg" alt="Escritorio">
-            </div>
+                <img src="../images/sobre-mi/Escritorio.jpg"  class="imagen-herramienta" alt="">
         </section>
         <!-- Esta es la seccion de experiencias de clientes -->
-        <section>
-            <div class="separador">
-                <h2 class="separador-texto">Nuestros clientes</h2>
+        <section  class="section-clientes">
+            <div class="titulo-clientes">
+                <h2>Opinion de los clientes</h2>
             </div>
+                
             <div class="clientes">
                 <div class="clientes-testimonios">
                     <div class="clientes-estrellas">
@@ -116,15 +126,14 @@
                         <img src="../images/Iconos/estrellas.png" alt="Icono de estrella">
                     </div>
                     <div class="clientes-texto">
-                        <p>"Este es un texto de ejemplo sobre el testimonio del producto"</p>
+                        <p>"Muy conforme con lo que pedi, un trabajo impecable y bien hecho"</p>
                     </div>
-                    <div class="clientes-nombre">
-                        <h3>Nombre cliente</h3>
+                    <div class="cliente-perfil">
+                        <h3 class="nombre-cliente">Analia Gomez</h3>
+                        <p class="rol-cliente">Estudiante universitaria</p>
+                        <img src="../images/sobre-mi/PerfilesTest/PT1.png" class="imagen-cliente"  alt="icono de persona">
                     </div>
-                    <div class="cliente-img-perfil">
-                        <p>@Twitter.persona</p>
-                        <img src="../images/Iconos/persona.png" alt="icono de persona">
-                    </div>
+                        
                 </div>
                 <div class="clientes-testimonios">
                     <div class="clientes-estrellas">
@@ -135,15 +144,32 @@
                         <img src="../images/Iconos/estrellas.png" alt="Icono de estrella">
                     </div>
                     <div class="clientes-texto">
-                        <p>"Este es un texto de ejemplo sobre el testimonio del producto"</p>
+                        <p>"Hace mucho tiempo que habia necesitado a un profesional que pueda realizar el trabajo que tenia, por suerte Black-Rose pudo solucionarlo, mucho mas que satisfecho"</p>
                     </div>
-                    <div class="clientes-nombre">
-                        <h3>Nombre cliente</h3>
+                    <div class="cliente-perfil">
+                        <h3 class="nombre-cliente">Robert Harrowstone</h3>
+                        <p class="rol-cliente">Empresario</p>
+                        <img src="../images/sobre-mi/PerfilesTest/PT2.png" class="imagen-cliente"  alt="icono de persona">
                     </div>
-                    <div class="cliente-img-perfil">
-                        <p>@Twitter.persona</p>
-                        <img src="../images/Iconos/persona.png" alt="icono de persona">
+                        
+                </div>
+                <div class="clientes-testimonios">
+                    <div class="clientes-estrellas">
+                        <img src="../images/Iconos/estrellas.png" alt="Icono de estrella">
+                        <img src="../images/Iconos/estrellas.png" alt="Icono de estrella">
+                        <img src="../images/Iconos/estrellas.png" alt="Icono de estrella">
+                        <img src="../images/Iconos/estrellas.png" alt="Icono de estrella">
+                        <img src="../images/Iconos/estrellas.png" alt="Icono de estrella">
                     </div>
+                    <div>
+                        <p  class="clientes-texto">"La dedicacion y atencion que me ofrecio no tiene igual, muy recomendada!"</p>
+                    </div>
+                    <div class="cliente-perfil">
+                        <h3 class="nombre-cliente">Mery Thompson</h3>
+                        <p class="rol-cliente">Emprendedora</p>
+                        <img src="../images/sobre-mi/PerfilesTest/PT3.png" class="imagen-cliente"   alt="icono de persona">
+                    </div>
+                        
                 </div>
                 <div class="clientes-testimonios">
                     <div class="clientes-estrellas">
@@ -154,15 +180,14 @@
                         <img src="../images/Iconos/estrellas.png" alt="Icono de estrella">
                     </div>
                     <div class="clientes-texto">
-                        <p>"Este es un texto de ejemplo sobre el testimonio del producto"</p>
+                        <p>"Los detalles del trabajo realizado y la rapidez valieron totalmente cada centavo, se gano un nuevo cliente"</p>
                     </div>
-                    <div class="clientes-nombre">
-                        <h3>Nombre cliente</h3>
+                    <div class="cliente-perfil">
+                        <h3 class="nombre-cliente">Agustin Cordoba</h3>
+                        <p class="rol-cliente">Gerente de industria</p>
+                        <img src="../images/sobre-mi/PerfilesTest/PT4.png"  class="imagen-cliente"  alt="icono de persona">
                     </div>
-                    <div class="cliente-img-perfil">
-                        <p>@Twitter.persona</p>
-                        <img src="../images/Iconos/persona.png" alt="icono de persona">
-                    </div>
+                        
                 </div>
                 <div class="clientes-testimonios">
                     <div class="clientes-estrellas">
@@ -173,15 +198,14 @@
                         <img src="../images/Iconos/estrellas.png" alt="Icono de estrella">
                     </div>
                     <div class="clientes-texto">
-                        <p>"Este es un texto de ejemplo sobre el testimonio del producto"</p>
+                        <p>"Estaba desesperado porque no conseguia quien me realice un diseño, contacte con ella y enseguida tuve los resultados, estoy muy agradecido del trabajo hecho!"</p>
                     </div>
-                    <div class="clientes-nombre">
-                        <h3>Nombre cliente</h3>
+                    <div class="cliente-perfil">
+                        <h3 class="nombre-cliente">Facundo Laurens</h3>
+                        <p class="rol-cliente">Abogado</p>
+                        <img src="../images/sobre-mi/PerfilesTest/PT5.png"  class="imagen-cliente"  alt="icono de persona">
                     </div>
-                    <div class="cliente-img-perfil">
-                        <p>@Twitter.persona</p>
-                        <img src="../images/Iconos/persona.png" alt="icono de persona">
-                    </div>
+                        
                 </div>
                 <div class="clientes-testimonios">
                     <div class="clientes-estrellas">
@@ -192,63 +216,41 @@
                         <img src="../images/Iconos/estrellas.png" alt="Icono de estrella">
                     </div>
                     <div class="clientes-texto">
-                        <p>"Este es un texto de ejemplo sobre el testimonio del producto"</p>
+                        <p>"He empezado un proyecto personal hace meses, me faltaba la parte de diseño y Black-Rose se hizo cargo, ahora mi proyecto se ve muchisimo mejor y es de mejor calidad, totalmente recomendado."</p>
                     </div>
-                    <div class="clientes-nombre">
-                        <h3>Nombre cliente</h3>
+                    <div class="cliente-perfil">
+                        <h3 class="nombre-cliente">Maria Jose Hernandez</h3>
+                        <p class="rol-cliente">Ing. Aeronautica</p>
+                        <img src="../images/sobre-mi/PerfilesTest/PT6.png"  class="imagen-cliente"  alt="icono de persona">
                     </div>
-                    <div class="cliente-img-perfil">
-                        <p>@Twitter.persona</p>
-                        <img src="../images/Iconos/persona.png" alt="icono de persona">
-                    </div>
+                        
                 </div>
-                <div class="clientes-testimonios">
-                    <div class="clientes-estrellas">
-                        <img src="../images/Iconos/estrellas.png" alt="Icono de estrella">
-                        <img src="../images/Iconos/estrellas.png" alt="Icono de estrella">
-                        <img src="../images/Iconos/estrellas.png" alt="Icono de estrella">
-                        <img src="../images/Iconos/estrellas.png" alt="Icono de estrella">
-                        <img src="../images/Iconos/estrellas.png" alt="Icono de estrella">
-                    </div>
-                    <div class="clientes-texto">
-                        <p>"Este es un texto de ejemplo sobre el testimonio del producto"</p>
-                    </div>
-                    <div class="clientes-nombre">
-                        <h3>Nombre cliente</h3>
-                    </div>
-                    <div class="cliente-img-perfil">
-                        <p>@Twitter.persona</p>
-                        <img src="../images/Iconos/persona.png" alt="icono de persona">
-                    </div>
-                </div>
-            </div>
         </section>
     </main>
     <!-- Main Fin -->
     <!-- Footer -->
-    <footer>
-        <div class="container">
-            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-                <p class="col-md-4 mb-0 text-muted">Black Rose, todos los derechos reservados.</p>
-                <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
-                <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-                </a>
-                <ul class="nav col-md-4 justify-content-center">
-                <li class="nav-item"><a href="./index.html" class="nav-link px-2 text-muted">Inicio</a></li>
-                <li class="nav-item"><a href="../pages/sobre-mi.html" class="nav-link px-2 text-muted">Sobre Mi</a></li>
-                <li class="nav-item"><a href="../pages/galeria.html" class="nav-link px-2 text-muted">Galeria</a></li>
-                <li class="nav-item"><a href="../pages/contacto.html" class="nav-link px-2 text-muted">Contacto</a></li>
-                <li class="nav-item"><a href="../pages/servicios.html" class="nav-link px-2 text-muted">Servicios</a></li>
-                </ul>
-                    <div class="redes-botones">
-                        <div class="redes-boton"><a href="https://www.facebook.com/" target="_blank"><img src="../images/Iconos/icons8-facebook-40.png" alt="Facebook"></a></div>
-                        <div class="redes-boton"><a href="https://www.instagram.com/" target="_blank"><img src="../images/Iconos/icons8-instagram-40.png" alt="Instagram"></a></div>
-                        <div class="redes-boton"><a href="https://www.twitter.com/" target="_blank"><img src="../images/Iconos/icons8-twitter-40.png" alt="Twitter"></a></div>
-                        <div class="redes-boton"><a href="https://www.artstation.com/" target="_blank"><img src="../images/Iconos/icons8-artstation-48.png" alt="Artstation"></a></div>
-                    </div>
-            </footer>
-            </div>
-    </footer>
+    <footer class="container-fluid bg-pers">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-0 my-0 ">
+            <p class="col-md-4 mb-0 fs-4 text-white ">Black Rose, todos los derechos reservados.</p>
+            <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+            <ul class="nav col-md-4 justify-content-center fs-5 t">
+            <li class="nav-item"><a href="/index.html" class="nav-link px-2 text-white">Inicio</a></li>
+            <li class="nav-item"><a href="../pages/sobre-mi.html" class="nav-link px-2 text-white">Sobre Mi</a></li>
+            <li class="nav-item"><a href="../pages/galeria.html" class="nav-link px-2 text-white">Galeria</a></li>
+            <li class="nav-item"><a href="../pages/contacto.html" class="nav-link px-2 text-white">Contacto</a></li>
+            <li class="nav-item"><a href="../pages/servicios.html" class="nav-link px-2 text-white">Servicios</a></li>
+            </ul>
+                <div class="redes-botones">
+                    <div class="redes-boton"><a href="https://www.facebook.com/" target="_blank"><img src="../images/Iconos/icons8-facebook-40.png" alt="Facebook"></a></div>
+                    <div class="redes-boton"><a href="https://www.instagram.com/" target="_blank"><img src="../images/Iconos/icons8-instagram-40.png" alt="Instagram"></a></div>
+                    <div class="redes-boton"><a href="https://www.twitter.com/" target="_blank"><img src="../images/Iconos/icons8-twitter-40.png" alt="Twitter"></a></div>
+                    <div class="redes-boton"><a href="https://www.artstation.com/" target="_blank"><img src="../images/Iconos/icons8-artstation-48.png" alt="Artstation"></a></div>
+                </div>
+        </footer>
+
+</footer>
     <!-- Footer Fin -->
 </body>
 </html>

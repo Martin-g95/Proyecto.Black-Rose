@@ -71,11 +71,21 @@
     <main>
         <!-- Esto es el titulo y fondo-->
         <section class="container-contacto">
-            <div class="title-contacto">
-                <h1>Contactame!</h1>
-                <p>Si tenes dudas y queres despejarlas, comunicate conmigo, dejame tus datos y en la brevedad estare comunicandome contigo</p>
-            </div>
                 <!-- Esto es un formulario -->
+            <div class="formulario-general">
+                <div class="contacto-form">
+                    <div class="title-contacto">
+                        <h1>Contactame!</h1>
+                        <p>Si tenes dudas y queres despejarlas, comunicate conmigo, dejame tus datos y en la brevedad estare comunicandome contigo</p>
+                    </div>
+                    <h2 class="subtitulo-contacto">Mis redes sociales:</h2>
+                    <div class="redes-sociales">
+                            <img src="../images/Iconos/icons8-facebook-40.png"  class="botones-redes" alt="Boton Facebook">
+                            <img src="../images/Iconos/icons8-instagram-40.png" class="botones-redes" alt="Boton Instagram">
+                            <img src="../images/Iconos/X.png" class="botones-redes" alt="x">
+                            <img src="../images/Iconos/icons8-artstation-48.png" class="botones-redes" alt="Art station">
+                    </div>
+                </div>
                 <form class="formulario" method="post">
                     <div class="form-container">
                         <label for="nombre"></label>
@@ -125,10 +135,8 @@
                     <div class="form-enviar">
                         <button class="submit-button" type="submit">Enviar</button>
                     </div>
-                    <div>
-                        
-                    </div>
                 </form>
+            </div>
             <!-- Esto es el contenedor del video de youtube -->
             <div class="contacto-youtube">
                 <h2 class="subtitulo-youtube">Seguime en youtube</h2>
@@ -146,29 +154,28 @@
     </main>
     <!-- Main Fin -->
     <!-- Footer -->
-    <footer>
-        <div class="container">
-            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-                <p class="col-md-4 mb-0 text-muted">Black Rose, todos los derechos reservados.</p>
-                <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
-                <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-                </a>
-                <ul class="nav col-md-4 justify-content-center">
-                <li class="nav-item"><a href="./index.html" class="nav-link px-2 text-muted">Inicio</a></li>
-                <li class="nav-item"><a href="../pages/sobre-mi.html" class="nav-link px-2 text-muted">Sobre Mi</a></li>
-                <li class="nav-item"><a href="../pages/galeria.html" class="nav-link px-2 text-muted">Galeria</a></li>
-                <li class="nav-item"><a href="../pages/contacto.html" class="nav-link px-2 text-muted">Contacto</a></li>
-                <li class="nav-item"><a href="../pages/servicios.html" class="nav-link px-2 text-muted">Servicios</a></li>
-                </ul>
-                    <div class="redes-botones">
-                        <div class="redes-boton"><a href="https://www.facebook.com/" target="_blank"><img src="../images/Iconos/icons8-facebook-40.png" alt="Facebook"></a></div>
-                        <div class="redes-boton"><a href="https://www.instagram.com/" target="_blank"><img src="../images/Iconos/icons8-instagram-40.png" alt="Instagram"></a></div>
-                        <div class="redes-boton"><a href="https://www.twitter.com/" target="_blank"><img src="../images/Iconos/icons8-twitter-40.png" alt="Twitter"></a></div>
-                        <div class="redes-boton"><a href="https://www.artstation.com/" target="_blank"><img src="../images/Iconos/icons8-artstation-48.png" alt="Artstation"></a></div>
-                    </div>
-            </footer>
-            </div>
-    </footer>
+    <footer class="container-fluid bg-pers">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-0 my-0 ">
+            <p class="col-md-4 mb-0 fs-4 text-white ">Black Rose, todos los derechos reservados.</p>
+            <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+            <ul class="nav col-md-4 justify-content-center fs-5 t">
+            <li class="nav-item"><a href="/index.html" class="nav-link px-2 text-white">Inicio</a></li>
+            <li class="nav-item"><a href="../pages/sobre-mi.html" class="nav-link px-2 text-white">Sobre Mi</a></li>
+            <li class="nav-item"><a href="../pages/galeria.html" class="nav-link px-2 text-white">Galeria</a></li>
+            <li class="nav-item"><a href="../pages/contacto.html" class="nav-link px-2 text-white">Contacto</a></li>
+            <li class="nav-item"><a href="../pages/servicios.html" class="nav-link px-2 text-white">Servicios</a></li>
+            </ul>
+                <div class="redes-botones">
+                    <div class="redes-boton"><a href="https://www.facebook.com/" target="_blank"><img src="../images/Iconos/icons8-facebook-40.png" alt="Facebook"></a></div>
+                    <div class="redes-boton"><a href="https://www.instagram.com/" target="_blank"><img src="../images/Iconos/icons8-instagram-40.png" alt="Instagram"></a></div>
+                    <div class="redes-boton"><a href="https://www.twitter.com/" target="_blank"><img src="../images/Iconos/icons8-twitter-40.png" alt="Twitter"></a></div>
+                    <div class="redes-boton"><a href="https://www.artstation.com/" target="_blank"><img src="../images/Iconos/icons8-artstation-48.png" alt="Artstation"></a></div>
+                </div>
+        </footer>
+
+</footer>
     <!-- Footer Fin -->
 </body>
 </html>
