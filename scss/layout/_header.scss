@@ -1,17 +1,17 @@
 /* #####----Header-----(Logo y navegacion)##### */
 header .container-fluid{
-    background-color: var(--segundo);
+    background-color: map-get($paleta-claros , colorC1  );
 }
 .navbar{
     padding: 0px;
 }
 .navbar a:hover{
     text-decoration: underline;
-    color: var(--tercero);
+    color: map-get($paleta-claros , colorC4 );
 }
 #navbarNav{
     justify-content: end;
-    font-size: 20px;
+    font-size: 15px;
 }
 .nombre-logo{
     font-size: 50px;

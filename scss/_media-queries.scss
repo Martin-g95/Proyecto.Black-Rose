@@ -15,6 +15,9 @@
 }
 /* Media queries-galeria */
 @media (min-width:320px){
+    .galeria{
+        padding: 15px;
+    }
     .galeria .galeria-imagenes{
         grid-template-columns: repeat(2,50%);
     }
@@ -151,5 +154,34 @@
 @media (max-width:400px){
     .container-iframe{
         width: 300px;
+    }
+}
+
+/* Media queries--- SERVICIOS--- */
+
+@media (max-width:400px){
+    .seccion-faq{
+        .cartas-faq{
+            grid-template-columns: 320px;
+            grid-template-rows: 320px;
+            padding: 15px 0px 15px 20px;
+            .contenedor-preguntas{
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+@media (min-width:1024px){
+    .cartas-faq{
+        grid-template-columns: repeat(3,25%);
+    }
+    .contenedor-preguntas{
+        width: 1024px;
+    }
+}
+@media (min-width:1200px){
+    .contenedor-preguntas{
+        width: 1200px;
     }
 }

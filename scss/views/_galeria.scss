@@ -1,9 +1,12 @@
 /* #####----Galeria-----##### */
+html {
+	scroll-behavior: smooth;
+}
 /* Banner Galeria Ilustracion */
 .galeria-container-il {
     width: 100%;
     height: 300px;
-    background-image: url("../images/Galeria/Banner-Ilustracion.jpg");
+    background-image: url("../images/Galeria/Banner-Ilustracion.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -12,8 +15,11 @@
     /* Descripcion de los banner */
     .galeria-text{
         text-align: center;
-        color: #f6f8fb;
-        font-size: 30px;
+        color: map-get($paleta-claros , colorC2);
+        text-shadow: 2px 3px black;
+        font-family: $oswaldFont;
+        font-weight: 100;
+        font-size: 40px;
     }
 }
 /* Separadores de la galeria */
@@ -22,13 +28,14 @@
     color: black;
     font-family: 'Lexend', sans-serif;
     font-style: italic;
-    padding: 10px;
+    padding: 20px;
     background-image: linear-gradient(to bottom, #ece7f8 0%, #beaded 100%);
+    margin: 0px 0px 50px 0px;
 }
 /* Galeria-grid */
 .galeria{
-    margin: 20px 0 20px 0;
     display: grid;
+    padding: 100px;
     .galeria-imagenes{
         width: 100%;
         margin: auto;
@@ -41,6 +48,7 @@
         .imagen img{
             width: 100%;
             border-radius: 5px;
+            @extend .border-gal;
         }
     }
 }
@@ -49,25 +57,68 @@
 .galeria-container-3d{
     width: 100%;
     height: 300px;
-    background-image: url("../images/Galeria/Modelado-3D\ -banner.jpg");
+    background-image: url("../images/Galeria/Modelado-3D\ -banner.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-top: 50px;
+    @extend %flex-center;
+    .galeria-text{
+        text-align: center;
+        color: map-get($paleta-claros , colorC2);
+        text-shadow: 2px 3px black;
+        font-family: $oswaldFont;
+        font-weight: 100;
+        font-size: 40px;
+    }
 }
 /* Banner Galeria UX/UI */
 .galeria-container-ux{
     width: 100%;
     height: 300px;
-    background-image: url("../images/Galeria/UX-ui-banner.jpg");
+    background-image: url("../images/Galeria/UX-ui-banner.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-top: 50px;
+    @extend %flex-center;
+    .galeria-text{
+        text-align: center;
+        color: map-get($paleta-claros , colorC2);
+        text-shadow: 2px 3px black;
+        font-family: $oswaldFont;
+        font-weight: 100;
+        font-size: 40px;
+    }
+}
+
+/* Boton scroll hacia arriba */
+.boton-arriba {
+	position: fixed;
+	bottom: 2rem;
+	right: 2rem;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #7674e7;
+    border: 2px solid black;
+	border-radius: 0.5rem;
+	padding: 0.5rem;
+	text-decoration: none;
+	transition: 0.2s ease-out;
+}
+
+.boton-arriba span {
+	color: #d3ebec;
+	font-size: 3rem;
+	transition: 0.2s ease-out;
+}
+
+.boton-arriba:hover {
+	background-color: #7156ec;
+}
+.boton-arriba:hover span {
+	transform: translateY(-4px);
 }

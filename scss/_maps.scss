@@ -1,14 +1,27 @@
-// $colores:(
-//     color-secundario: #575ce7,
-//     texto:rgb(26, 21, 21),
-//     boton: rgb(57, 201, 201)
-// );
+$paleta-claros:(
+    colorC1: #B1B2FF,
+    colorC2: #AAC4FF,
+    colorC3: #D2DAFF,
+    colorC4: #EEF1FF,
+);
 
-// $tamanios:(
-//     h1:40px,
-//     h2:36px,
-//     h3:32px,
-//     h4:28px,
-//     h5:24px,
-//     h6:20px
-// )
+$paleta-medio:(
+    colorM1: #5B0888,
+    colorM2: #713ABE,
+    colorM3: #9D76C1,
+    colorM4: #E5CFF7,
+);
+
+$paleta-fuertes:(
+    colorF1:#5D12D2,
+    colorF2:#B931FC,
+    colorF3:#FF6AC2,
+    colorF4:#FFE5E5,
+);
+
+$bordes-celestes:(
+    colorB1: #6499E9,
+    colorB2: #9EDDFF,
+    colorB3: #A6F6FF,
+    colorB4: #BEFFF7,
+)
