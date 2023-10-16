@@ -19,7 +19,12 @@ html {
         text-shadow: 2px 3px black;
         font-family: $oswaldFont;
         font-weight: 100;
-        font-size: 40px;
+        h2{
+            font-size: 50px;
+        }
+        p{
+            font-size: 30px;
+        }
     }
 }
 /* Separadores de la galeria */

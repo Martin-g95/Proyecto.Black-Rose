@@ -64,7 +64,7 @@ header .container-fluid {
 
 #navbarNav {
   justify-content: end;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .nombre-logo {
@@ -311,7 +311,12 @@ html {
   text-shadow: 2px 3px black;
   font-family: "Oswald", sans-serif;
   font-weight: 100;
-  font-size: 40px;
+}
+.galeria-container-il .galeria-text h2 {
+  font-size: 50px;
+}
+.galeria-container-il .galeria-text p {
+  font-size: 30px;
 }
 
 /* Separadores de la galeria */
@@ -836,11 +841,31 @@ html {
   .galeria-container-il {
     height: 200px;
   }
+  .galeria-container-il .galeria-text h2 {
+    font-size: 35px;
+  }
+  .galeria-container-il .galeria-text p {
+    font-size: 25px;
+  }
   .galeria-container-3d {
     height: 200px;
+    height: 200px;
+  }
+  .galeria-container-3d .galeria-text h2 {
+    font-size: 35px;
+  }
+  .galeria-container-3d .galeria-text p {
+    font-size: 25px;
   }
   .galeria-container-ux {
     height: 200px;
+    height: 200px;
+  }
+  .galeria-container-ux .galeria-text h2 {
+    font-size: 35px;
+  }
+  .galeria-container-ux .galeria-text p {
+    font-size: 25px;
   }
 }
 /* Media queries---SOBRE MI */
@@ -904,9 +929,11 @@ html {
   }
   .formulario-general .contacto-form .title-contacto {
     padding: 0;
+    font-size: 25px;
   }
   .formulario-general .contacto-form .redes-sociales {
     flex-direction: column;
+    gap: 10px;
   }
   .formulario-general .contacto-form .redes-sociales .botones-redes {
     height: 75px;
