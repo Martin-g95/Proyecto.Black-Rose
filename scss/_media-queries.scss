@@ -84,7 +84,7 @@
     .sobre-mi-contenedor{
         .sobre-mi-textos{
             width: 300px;
-            margin: 0px 0px 50px 40px;
+            margin: 0px 0px 50px 25px;
             .sobre-mi-texto{
                 font-size: 15px;
             }
@@ -98,6 +98,10 @@
             width: 350px;
             margin: 10px 10px;
             text-align: center;
+            .herramientas-text{
+                font-size: 25px;
+            }
+
         }
     }
 }

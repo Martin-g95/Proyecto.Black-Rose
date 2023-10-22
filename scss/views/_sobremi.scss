@@ -17,8 +17,8 @@ background-size: cover;
     flex-direction: column;
     justify-content: end;
         .sobre-mi-textos{
-            margin: 10px;
-            padding: 10px;
+            margin: 10px 10px 10px 50px;
+            padding: 20px;
             background-color:rgba(2, 20, 34, 0.678);
             border-radius: 20px;
             border: 3px solid map-get($bordes-celestes, colorB1);

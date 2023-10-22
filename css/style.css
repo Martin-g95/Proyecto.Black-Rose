@@ -119,7 +119,36 @@ header .container-fluid {
   border-radius: 10px;
   box-shadow: #BEFFF7 2px 4px 10px;
 }
+.fondo-inicio .imagen-contenido:hover {
+  transform: scale(1.03);
+  transition: 0.3s;
+  animation-name: img-anim;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-duration: 6s;
+  animation-delay: 10s;
+}
 
+/* #####----Animaciones/Index-----##### */
+.animate__animated.animate__slideInDown {
+  --animate-duration: 1.3s;
+}
+
+.animate__animated.animate__fadeInLeft {
+  --animate-duration: 1.3s;
+}
+
+@keyframes img-anim {
+  33% {
+    background-image: url("/images/Inicio/Bn-anim/BN1.webp");
+  }
+  66% {
+    background-image: url("/images/Inicio/Bn-anim/BN2.webp");
+  }
+  99% {
+    background-image: url("/images/Inicio/Bn-anim/BN3.webp");
+  }
+}
 /* #####----SOBRE-MI-----##### */
 /* Titulo con descripcion e imagen */
 main {
@@ -140,8 +169,8 @@ main {
   justify-content: end;
 }
 .sobre-mi-contenedor .sobre-mi-textos {
-  margin: 10px;
-  padding: 10px;
+  margin: 10px 10px 10px 50px;
+  padding: 20px;
   background-color: rgba(2, 20, 34, 0.678);
   border-radius: 20px;
   border: 3px solid #6499E9;
@@ -873,7 +902,7 @@ html {
 @media (max-width: 400px) {
   .sobre-mi-contenedor .sobre-mi-textos {
     width: 300px;
-    margin: 0px 0px 50px 40px;
+    margin: 0px 0px 50px 25px;
   }
   .sobre-mi-contenedor .sobre-mi-textos .sobre-mi-texto {
     font-size: 15px;
@@ -884,6 +913,9 @@ html {
     width: 350px;
     margin: 10px 10px;
     text-align: center;
+  }
+  .herramientas-inicio .herramientas-subtitulo .herramientas-text {
+    font-size: 25px;
   }
 }
 @media (max-width: 400px) {

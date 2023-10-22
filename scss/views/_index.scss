@@ -33,6 +33,7 @@
                 height: 700px;
                 padding: 10px;
                 margin: 30px;
+                
                 .imagenes-subtitulo{
                     text-align: center;
                     font-size: 36px;
@@ -44,6 +45,34 @@
                     border-radius: 10px;
                     box-shadow: map-get($bordes-celestes,colorB4) 2px 4px 10px;
                 }
+                &:hover{
+                    transform:scale(1.03);
+                    transition:0.3s;
+                    animation-name: img-anim;
+                    animation-iteration-count: infinite;
+                    animation-timing-function: ease-in;
+                    animation-duration: 6s;
+                    animation-delay: 10s;
+                }
             }
             
+}
+/* #####----Animaciones/Index-----##### */
+.animate__animated.animate__slideInDown {
+    --animate-duration: 1.3s;
+}
+.animate__animated.animate__fadeInLeft{
+    --animate-duration: 1.3s;
+}
+
+@keyframes img-anim{
+33%{
+    background-image: url("/images/Inicio/Bn-anim/BN1.webp");
+}
+66%{
+    background-image: url("/images/Inicio/Bn-anim/BN2.webp");
+}
+99%{
+    background-image: url("/images/Inicio/Bn-anim/BN3.webp");
+}
 }
