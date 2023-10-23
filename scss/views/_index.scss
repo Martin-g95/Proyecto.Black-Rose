@@ -36,7 +36,7 @@
                     text-shadow: map-get($bordes-celestes, colorB1) 3px 1px 5px;
                 }
                 .img-bg-il{
-                    background-image: url(/images/Inicio/3.jpg);
+                    background-image: url(../images/Inicio/3.jpg);
                     background-size: cover;
                     &:hover{
                         transform:scale(1.03);
@@ -49,7 +49,7 @@
                     }
                 }
                 .img-bg-3d{
-                    background-image: url(/images/Inicio/1.jpg);
+                    background-image: url(../images/Inicio/1.jpg);
                     background-size: cover;
                     &:hover{
                         transform:scale(1.03);
@@ -85,25 +85,25 @@
 
 @keyframes img-anim-il{
 33%{
-    background-image: url("/images/Inicio/Bn-anim/BN1.webp");
+    background-image: url("../images/Inicio/Bn-anim/BN1.webp");
 }
 66%{
-    background-image: url("/images/Inicio/Bn-anim/BN2.webp");
+    background-image: url("../images/Inicio/Bn-anim/BN2.webp");
 }
 99%{
-    background-image: url("/images/Inicio/Bn-anim/BN3.webp");
+    background-image: url("../images/Inicio/Bn-anim/BN3.webp");
 }
 }
 
 @keyframes img-anim-3d{
 33%{
-    background-image: url("/images/Inicio/Bn-anim/BN4.webp");
+    background-image: url("../images/Inicio/Bn-anim/BN4.webp");
 }
 66%{
-    background-image: url("/images/Inicio/Bn-anim/BN5.webp");
+    background-image: url("../images/Inicio/Bn-anim/BN5.webp");
 }
 99%{
-    background-image: url("/images/Inicio/Bn-anim/BN6.webp");
+    background-image: url("../images/Inicio/Bn-anim/BN6.webp");
 
 }
 }
