@@ -80,7 +80,7 @@
 
 /* Media queries-- descripcion */
 
-@media (max-width:400px){
+@media (max-width:425px){
     .sobre-mi-contenedor{
         .sobre-mi-textos{
             width: 300px;
@@ -92,7 +92,7 @@
         
     }
 }
-@media (max-width:400px){
+@media (max-width:425px){
     .herramientas-inicio{
         .herramientas-subtitulo{
             width: 350px;
@@ -105,7 +105,7 @@
         }
     }
 }
-@media (max-width:400px){
+@media (max-width:425px){
         .herramientas-contenedor{
             .herramientas-items{
                 border-radius: 10px;
@@ -120,7 +120,7 @@
         }
 }
 
-@media (max-width:400px){
+@media (max-width:425px){
     .section-clientes{
         .titulo-clientes{
             width: 350px;
@@ -149,7 +149,7 @@
 
 /* Media queries--- Contacto--- */
 
-@media (max-width:400px){
+@media (max-width:425px){
     .formulario-general{
         .contacto-form{
         width: 350px;
@@ -190,7 +190,7 @@
 
 /* Media queries--- SERVICIOS--- */
 
-@media (max-width:400px){
+@media (max-width:425px){
     .seccion-faq{
         .cartas-faq{
             grid-template-columns: 320px;
