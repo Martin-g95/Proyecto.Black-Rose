@@ -79,7 +79,7 @@
 
 /* Media queries-- descripcion */
 
-@media (max-width:425px){
+@media (min-width:375px) and (max-width:425px){
     .sobre-mi-contenedor{
         .sobre-mi-textos{
             width: 300px;
@@ -91,7 +91,7 @@
         }
     }
 }
-@media (max-width:425px){
+@media(min-width:375px) and (max-width:425px){
     .herramientas-inicio{
         .herramientas-subtitulo{
             width: 350px;
@@ -103,7 +103,7 @@
         }
     }
 }
-@media (max-width:425px){
+@media(min-width:375px) and (max-width:425px){
         .herramientas-contenedor{
             .herramientas-items{
                 border-radius: 10px;
@@ -118,13 +118,15 @@
         }
 }
 
-@media (max-width:425px){
+@media(min-width:375px) and (max-width:425px){
     .section-clientes{
         .titulo-clientes{
             width: 350px;
+            margin: 50px 0px 50px 0px;
         }
         .clientes{
             padding: 0px;
+            width: 375px;
             .clientes-testimonios{
                 width: 350px;
                 .cliente-perfil{
@@ -148,11 +150,11 @@
 
 /* Media queries--- Contacto--- */
 
-@media (max-width:425px){
+@media(min-width:375px) and (max-width:425px){
     .formulario-general{
         .contacto-form{
-        width: 350px;
-        margin-left: 25px;
+        width: 330px;
+        margin: 0px;
         border-radius: 20px 20px 0px 0px;
         height: 800px;
         .title-contacto{
@@ -170,15 +172,18 @@
         }
         }
         .formulario{
-            width: 350px;
-            margin: 0px 25px 20px 25px;
+            width: 330px;
+            margin:0px;
             border-radius: 0px 0px 20px 20px ;
         }
     }
 }
-.contacto-youtube {
-    width: 375px;
-    box-shadow: none;
+@media (min-width:375px) and (max-width:425px){
+    .contacto-youtube {
+        width: 360px;
+        box-shadow: none;
+        margin: 0px;
+    }
 }
 @media (max-width:600px){
         .container-iframe{
@@ -194,8 +199,8 @@
 }
 
 /* Media queries--- SERVICIOS--- */
-@media (max-width:425px){
-   .servicios-titulos{
+@media(min-width:375px) and (max-width:425px){
+    .servicios-titulos{
     .contenedor-titulo{
         h1{
             font-size: 36px;
@@ -204,17 +209,14 @@
             font-size: 20px;
         }
     }
-   }
+    }
 }
-@media (max-width:425px){
+@media(min-width:375px) and (max-width:425px){
     .seccion-faq{
         .cartas-faq{
             grid-template-columns: 320px;
             grid-template-rows: 320px;
-            padding: 15px 0px 15px 20px;
-            .contenedor-preguntas{
-                margin-left: 60px;
-            }
+            justify-content: space-around;
         }
     }
 }
@@ -230,5 +232,26 @@
 @media (min-width:1200px){
     .contenedor-preguntas{
         width: 1200px;
+    }
+}
+
+/* Media queries--- HEADER--- */
+@media  (min-width:375px) and (max-width:425px){
+    .navbar{
+        .container-fluid{
+            a{
+                img{
+                    width: 60px;
+                    height: 60px;
+                }
+            }
+            .nombre-logo{
+                p{
+                    font-size: 36px;
+                    padding-top:15px;
+                }
+            }
+        }
+        
     }
 }
