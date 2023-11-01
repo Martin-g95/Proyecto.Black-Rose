@@ -2,10 +2,10 @@
 
 /* Titulo con descripcion e imagen */
 main{
-    background-color: map-get($paleta-claros, colorC1);
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 1000'%3E%3Cdefs%3E%3CradialGradient id='a' cx='500' cy='500' r='41.2%25' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%234C5D93'/%3E%3Cstop offset='1' stop-color='%23514199'/%3E%3C/radialGradient%3E%3CradialGradient id='b' cx='500' cy='500' r='73.4%25' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23705EFF' stop-opacity='1'/%3E%3Cstop offset='1' stop-color='%23705EFF' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='1000' height='1000'/%3E%3Cg fill='none' stroke='%23F40' stroke-width='0.2' stroke-miterlimit='10' stroke-opacity='0.65'%3E%3Ccircle cx='500' cy='500' r='725'/%3E%3Ccircle cx='500' cy='500' r='700'/%3E%3Ccircle cx='500' cy='500' r='675'/%3E%3Ccircle cx='500' cy='500' r='650'/%3E%3Ccircle cx='500' cy='500' r='625'/%3E%3Ccircle cx='500' cy='500' r='600'/%3E%3Ccircle cx='500' cy='500' r='575'/%3E%3Ccircle cx='500' cy='500' r='550'/%3E%3Ccircle cx='500' cy='500' r='525'/%3E%3Ccircle cx='500' cy='500' r='500'/%3E%3Ccircle cx='500' cy='500' r='475'/%3E%3Ccircle cx='500' cy='500' r='450'/%3E%3Ccircle cx='500' cy='500' r='425'/%3E%3Ccircle cx='500' cy='500' r='400'/%3E%3Ccircle cx='500' cy='500' r='375'/%3E%3Ccircle cx='500' cy='500' r='350'/%3E%3Ccircle cx='500' cy='500' r='325'/%3E%3Ccircle cx='500' cy='500' r='300'/%3E%3Ccircle cx='500' cy='500' r='275'/%3E%3Ccircle cx='500' cy='500' r='250'/%3E%3Ccircle cx='500' cy='500' r='225'/%3E%3Ccircle cx='500' cy='500' r='200'/%3E%3Ccircle cx='500' cy='500' r='175'/%3E%3Ccircle cx='500' cy='500' r='150'/%3E%3Ccircle cx='500' cy='500' r='125'/%3E%3Ccircle cx='500' cy='500' r='100'/%3E%3Ccircle cx='500' cy='500' r='75'/%3E%3Ccircle cx='500' cy='500' r='50'/%3E%3Ccircle cx='500' cy='500' r='25'/%3E%3C/g%3E%3Crect fill-opacity='0.65' fill='url(%23b)' width='1000' height='1000'/%3E %3C/svg%3E");
-background-attachment: fixed;
-background-size: cover;
+    background-color: #F5EFFF;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23e5d9f2' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23cdc1ff' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23e2d5f4' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23d6caff' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23ded0f7' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23dfd3ff' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23d9cbf9' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23e7ddff' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23d4c6fc' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23eee6ff' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23cdc1ff' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23f5efff' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
 }
 .sobre-mi-contenedor{
     height: 700px;
@@ -16,30 +16,29 @@ background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: end;
+    align-items: start;
         .sobre-mi-textos{
             margin: 10px 10px 10px 50px;
             padding: 20px;
-            background-color:rgba(2, 20, 34, 0.678);
+            background-color: black;
+            opacity: 0.8;
             border-radius: 20px;
-            border: 3px solid map-get($bordes-celestes, colorB1);
-            box-shadow: 5px 5px 5px map-get($bordes-celestes, colorB2);
-            backdrop-filter: blur(3px);
+            border: 3px solid map-get($paleta-claros, colorC4);
+            box-shadow: 5px 5px 5px map-get($paleta-claros, colorC3);
             max-width: 100%;
-            width: 600px;
-            margin-bottom: 20PX;
+            width: 500px;
+            margin: 30px;
             height: auto;
-            display: flex;
-            flex-direction: column;
             .sobre-mi-titulo{
                 font-weight: bold;
                 font-size: 36px;
                 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                color:map-get($paleta-medio, colorM2);
+                color:map-get($paleta-claros, colorC3);
                 text-align: center;
             }
             .sobre-mi-texto{
                 font-weight: bold;
-                font-size: 22px;
+                font-size: 20px;
                 color: map-get($paleta-claros, colorC1);
                 text-align: justify;
             }
@@ -57,21 +56,25 @@ background-size: cover;
 .herramientas-inicio{
     @extend %flex-c-center;
     .herramientas-subtitulo{
-        background-color: rgba(240, 248, 255, 0.226);
+        background-color: map-get($paleta-claros, colorC3);
         max-width: 100%;
+        width: 1235px;
         margin: 50px;
         padding: 20px;
         border-radius: 10px;
+        border: 1px solid map-get($paleta-claros, colorC5);
+        opacity: 0.8;
     }
     .herramientas-sub{
         font-family: $oswaldFont;
-        font-size: 48px;
-        color: $colorDos;
+        font-size: 36px;
+        color: map-get($paleta-claros, colorC5);
         text-align: center;
+
     }
     .herramientas-text{
         font-family: $overpassFont;
-        font-size: 30px;
+        font-size: 20px;
         width: auto;
     }
 }
@@ -83,7 +86,7 @@ background-size: cover;
     .herramientas-items{
         background-color: $colorDos;
         max-width: 100%;
-        width: 450px;
+        width: 475px;
         padding: 15px;
         border: 5px solid $colorDos;
         border-radius: 10px 0px 0px 10px;
@@ -120,11 +123,12 @@ background-size: cover;
         padding-top: 50px;
         font-size: 75px;
         height: 150px;
-        width: 600px;
+        max-width: 100%;
+        width: 1229px;
         font-family: $oswaldFont;
-        background-color: $colorTres;
-        opacity: 0.5;
-        border-radius: 30px;
+        background-color: map-get($paleta-claros, colorC3);
+        opacity: 0.8;
+        border-radius: 15px;
         box-shadow: 0 0 20px;
     }
     
@@ -133,13 +137,14 @@ background-size: cover;
         flex-direction: row;
         justify-content: center;
         flex-wrap: wrap;
-        gap: 20px;
+        gap: 36px;
         margin-bottom: 30px;
+        padding: 30px 80px 30px 80px;
         .clientes-testimonios{
             background-color: $colorTres;
             border-radius: 5px;
-            margin: 15px;
-            width: 500px;
+            margin: 25px;
+            width: 350px;
             max-height: 100%;
             display: flex;
             flex-direction: column;
@@ -154,7 +159,7 @@ background-size: cover;
                 text-align: center;
                 padding: 10px;
                 margin: 5px;
-                font-size: 20px;
+                font-size: 15px;
             }
             .cliente-perfil{
                 display: flex;
@@ -163,15 +168,18 @@ background-size: cover;
                 margin: 5px;
                 padding: 0px 10px 0px 10px;
                 .nombre-cliente{
-                    font-size: 30px;
+                    font-size: 15px;
                     font-weight: bold;
+                    padding: 10px;
                 }
                 .rol-cliente{
                     font-style: italic;
+                    font-size: 10px;
+                    padding: 5px;
                 }
                 .imagen-cliente{
                     max-height: 100%;
-                    height: 150px;
+                    height: 100px;
                 }
             }
         }

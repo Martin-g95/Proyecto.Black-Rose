@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Meta descripcion -->
         <meta name="description" content="Te ofrezco este formulario para que te contactes conmigo, estoy siempre activa en mis redes sociales, y no olvides pasar por mi canal de YouTube.">
-        <meta name="keywords"  content="PORTAFOLIO, ILUSTRACION DIGITAL, MODELADO 3D, UX/UI, SERVICIO, GALERIA, COMISION, DISEÑO">
+        <meta name="keywords"  content="PORTAFOLIO, ILUSTRACION DIGITAL, MODELADO 3D, UX/UI, SERVICIO, GALERIA, COMISION, DISEÑO, CONTACTO, REDES SOCIALES">
         <!-- Favicon -->
         <link rel="shortcut icon" href="../images/Iconos/icons8-rosa-30.png">
         <!-- Fuentes -->
@@ -80,25 +80,27 @@
                 <div class="contacto-form">
                     <div class="title-contacto">
                         <h1>Contactame!</h1>
-                        <p>Si tenes dudas y queres despejarlas, comunicate conmigo, dejame tus datos y en la brevedad estare comunicandome contigo</p>
+                        <p>Si tenes dudas y queres despejarlas, comunicate conmigo, te voy a brindar ayuda con lo que necesites y explicarte como realizo el proceso de los trabajos,dejame tus datos y en la brevedad estare comunicandome contigo</p>
                     </div>
                     <h2 class="subtitulo-contacto">Mis redes sociales:</h2>
                     <div class="redes-sociales">
+                        <div class="redes-uno">
                             <a href="https://www.facebook.com/" target="_blank">
-                                <img src="../images/Iconos/icons8-facebook-40.png"   class="botones-redes" alt="Boton Facebook">
+                                <img src="../images/Contacto/Faceicon.png"   class="botones-redes" alt="Boton Facebook">
                             </a>
                             <a href="https://www.instagram.com/" target="_blank">
-                                <img src="../images/Iconos/icons8-instagram-40.png" class="botones-redes" alt="Boton Instagram">
+                                <img src="../images/Contacto/IGicon.png" class="botones-redes" alt="Boton Instagram">
                             </a>
-                            <a href="https://twitter.com/home" target="_blank">
-                                <img src="../images/Iconos/X.png" class="botones-redes" alt="Twitter">
-                            </a>
-                            <a href="https://www.artstation.com/?sort_by=community&dimension=all" target="_blank">
-                                <img src="../images/Iconos/icons8-artstation-48.png" class="botones-redes" alt="Art station">
-                            </a>
+                        </div>
+                        <div class="redes-dos"> <a href="https://twitter.com/home" target="_blank">
+                            <img src="../images/Contacto/Xicon.png" class="botones-redes" alt="Twitter">
+                        </a>
+                        <a href="https://www.artstation.com/?sort_by=community&dimension=all" target="_blank">
+                            <img src="../images/Contacto/ArtStaticon.png" class="botones-redes" alt="Art station">
+                        </a></div>
                     </div>
                 </div>
-                <form class="formulario" method="post">
+                <form class="formulario">
                     <div class="form-container">
                         <label for="nombre"></label>
                         <input class="form-placeholder" type="text" placeholder="Tu nombre" required>
@@ -113,11 +115,11 @@
                     </div>
                     <div class="form-container">
                         <label for="correo"></label>
-                        <input class="form-placeholder" type="email" name="correo" placeholder="Tu Email">
+                        <input class="form-placeholder" type="email" name="correo" placeholder="Tu Email" required>
                     </div>
                     <div class="form-text-area">
                         <label for="text"></label>
-                        <textarea class="form-container-area" name="texto" cols="30" rows="10" placeholder="Envianos tu consulta"></textarea>
+                        <textarea class="form-container-area" name="texto" cols="30" rows="10" placeholder="Envianos tu consulta" required></textarea>
                     </div>
                     <div class="form-interes">
                         <div class="interes-contenedor">
@@ -154,12 +156,11 @@
                 <h2 class="subtitulo-youtube">Seguime en youtube</h2>
                 <p class="texto-youtube">En mis videos podras encontrar tutoriales y tips para este mundo tan basto del diseño, desde el uso de las herramientas y tecnicas de dibujo, te espero!</p>
             </div>
-            <div>
+            <div class="contenedores-videos">
                 <div  class="container-iframe">
                     <div  class="iframe-video">
                         <iframe src="https://www.youtube.com/embed/rLi3V4ZYDFc?si=kBrk5gq8eLCpYweO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
-
                 </div>
             </div>
         </section>
@@ -167,7 +168,7 @@
     <!-- Main Fin -->
     <!-- Footer -->
     <footer class="container-fluid bg-pers">
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-0 my-0 ">
+        <footer class="d-flex flex-wrap justify-content-center align-items-center py-0 my-0 ">
             <p class="col-md-4 mb-0 fs-4 text-white ">Black Rose, todos los derechos reservados.</p>
             <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
             <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>

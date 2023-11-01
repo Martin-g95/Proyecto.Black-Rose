@@ -8,9 +8,10 @@
     }
 }
 @media (min-width:320px) and (max-width:425px){
-    .imagen-contenido{
+    .fondo-inicio .banner-img .imagen-contenido {
         justify-content: center;
         align-items: center;
+        width: 300px;
     }
 }
 /* Media queries-galeria */
@@ -45,12 +46,11 @@
                 font-size: 35px;
             }
             p{
-                font-size: 25px;
+                font-size: 20px;
             }
         }
     }
     .galeria-container-3d{
-        height: 200px;
         height: 200px;
         .galeria-text{
             h2{
@@ -63,7 +63,6 @@
 
     }
     .galeria-container-ux{
-        height: 200px;
         height: 200px;
         .galeria-text{
             h2{
@@ -86,10 +85,10 @@
             width: 300px;
             margin: 0px 0px 50px 25px;
             .sobre-mi-texto{
-                font-size: 15px;
+                font-size: 16px;
+                color: map-get($paleta-claros , colorC2 );
             }
         }
-        
     }
 }
 @media (max-width:425px){
@@ -101,7 +100,6 @@
             .herramientas-text{
                 font-size: 25px;
             }
-
         }
     }
 }
@@ -126,6 +124,7 @@
             width: 350px;
         }
         .clientes{
+            padding: 0px;
             .clientes-testimonios{
                 width: 350px;
                 .cliente-perfil{
@@ -157,7 +156,7 @@
         border-radius: 20px 20px 0px 0px;
         height: 800px;
         .title-contacto{
-            padding: 0;
+            padding: 5;
             font-size: 25px;
         }
         .redes-sociales{
@@ -177,19 +176,36 @@
         }
     }
 }
-@media (max-width:600px){
-    .container-iframe{
-        width:400px;
-    }
+.contacto-youtube {
+    width: 375px;
+    box-shadow: none;
 }
-@media (max-width:400px){
-    .container-iframe{
-        width: 300px;
-    }
+@media (max-width:600px){
+        .container-iframe{
+            width:400px;
+        }
+}
+@media (max-width:425px){
+
+        .container-iframe{
+            width:300px;
+        }
+
 }
 
 /* Media queries--- SERVICIOS--- */
-
+@media (max-width:425px){
+   .servicios-titulos{
+    .contenedor-titulo{
+        h1{
+            font-size: 36px;
+        }
+        p{
+            font-size: 20px;
+        }
+    }
+   }
+}
 @media (max-width:425px){
     .seccion-faq{
         .cartas-faq{
@@ -197,7 +213,7 @@
             grid-template-rows: 320px;
             padding: 15px 0px 15px 20px;
             .contenedor-preguntas{
-                margin-bottom: 10px;
+                margin-left: 60px;
             }
         }
     }

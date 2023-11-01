@@ -1,10 +1,9 @@
     /* #####----Descripcion-----##### */
 .fondo-inicio{
-    background-color: map-get($paleta-medio,colorM1);
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 800'%3E%3Cg fill-opacity='0.5'%3E%3Ccircle fill='%23340A79' cx='400' cy='400' r='600'/%3E%3Ccircle fill='%233a0f82' cx='400' cy='400' r='500'/%3E%3Ccircle fill='%2341168a' cx='400' cy='400' r='400'/%3E%3Ccircle fill='%23481d91' cx='400' cy='400' r='300'/%3E%3Ccircle fill='%234f2497' cx='400' cy='400' r='200'/%3E%3Ccircle fill='%23562D9D' cx='400' cy='400' r='100'/%3E%3C/g%3E%3C/svg%3E");
+    background-color: #F5EFFF;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23e5d9f2' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23cdc1ff' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23e2d5f4' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23d6caff' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23ded0f7' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23dfd3ff' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23d9cbf9' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23e7ddff' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23d4c6fc' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23eee6ff' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23cdc1ff' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23f5efff' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
     background-attachment: fixed;
     background-size: cover;
-    padding: 30px;
     @extend %flex-r-center;
     flex-wrap: wrap;
     .descripcion-contenido{
@@ -16,13 +15,13 @@
         .descripcion-titulo{
             padding-bottom: 15px;
             text-align: center;
-            color: map-get($paleta-medio,colorM4);
+            color: map-get($paleta-claros,colorC4);
             font-size: 48px;
         }
         .descripcion-texto{
             width: auto;
             height: auto;
-            color: map-get($paleta-claros,colorC2);
+            color: map-get($paleta-claros,colorC4);
             font-size: 24px;
         }
     }
@@ -32,8 +31,7 @@
                 .imagenes-subtitulo{
                     text-align: center;
                     font-size: 30px;
-                    color:map-get($paleta-claros, colorC1);
-                    text-shadow: map-get($bordes-celestes, colorB1) 3px 1px 5px;
+                    color:map-get($paleta-claros, colorC5);
                 }
                 .img-bg-il{
                     background-image: url(../images/Inicio/3.jpg);
@@ -43,9 +41,9 @@
                         transition:0.3s;
                         animation-name: img-anim-il;
                         animation-iteration-count: infinite;
-                        animation-timing-function: ease-in;
-                        animation-duration: 5s;
-                        animation-delay: 1.5s;
+                        animation-timing-function: ease;
+                        animation-duration: 4s;
+                        animation-delay: 0.3s;
                     }
                 }
                 .img-bg-3d{
@@ -56,9 +54,22 @@
                         transition:0.3s;
                         animation-name: img-anim-3d;
                         animation-iteration-count: infinite;
-                        animation-timing-function: ease-in;
-                        animation-duration: 5s;
-                        animation-delay: 1.5s;
+                        animation-timing-function: ease;
+                        animation-duration: 4s;
+                        animation-delay: 0.3s;
+                    }
+                }
+                .img-bg-ux{
+                    background-image: url(../images/Inicio/2.jpg);
+                    background-size: cover;
+                    &:hover{
+                        transform:scale(1.03);
+                        transition:0.3s;
+                        animation-name: img-anim-ux;
+                        animation-iteration-count: infinite;
+                        animation-timing-function: ease;
+                        animation-duration: 4s;
+                        animation-delay: 0.3s;
                     }
                 }
                 .imagen-contenido {
@@ -68,19 +79,17 @@
                     margin: 30px;
                     border: 1px solid black;
                     border-radius: 10px;
-                    box-shadow: map-get($bordes-celestes,colorB4) 2px 4px 10px;
+                    box-shadow: map-get($paleta-claros,colorC4) 2px 4px 10px;
                     
                 }
             }
-
-            
 }
 /* #####----Animaciones/Index-----##### */
 .animate__animated.animate__slideInDown {
-    --animate-duration: 1.3s;
+    --animate-duration: 0.8s;
 }
 .animate__animated.animate__fadeInLeft{
-    --animate-duration: 1.3s;
+    --animate-duration: 0.8s;
 }
 
 @keyframes img-anim-il{
@@ -107,3 +116,15 @@
 
 }
 }
+@keyframes img-anim-ux{
+    33%{
+        background-image: url("../images/Inicio/Bn-anim/BN7.webp");
+    }
+    66%{
+        background-image: url("../images/Inicio/Bn-anim/BN8.webp");
+    }
+    99%{
+        background-image: url("../images/Inicio/Bn-anim/BN9.webp");
+    
+    }
+    }

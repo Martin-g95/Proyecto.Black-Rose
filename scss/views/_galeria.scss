@@ -6,7 +6,7 @@ html {
 .galeria-container-il {
     width: 100%;
     height: 300px;
-    background-image: url("../images/Galeria/Banner-Ilustracion.webp");
+    background-image: url("../images/Galeria/BannerIA1.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -16,26 +16,44 @@ html {
     .galeria-text{
         text-align: center;
         color: map-get($paleta-claros , colorC2);
-        text-shadow: 2px 3px black;
+        text-shadow: 1px 2px black;
         font-family: $oswaldFont;
         font-weight: 100;
+        background-color: map-get($paleta-claros , colorC4);
+        opacity: 0.9;
+        border-radius: 5px;
+        padding: 10px;
         h2{
-            font-size: 50px;
+            font-size: 36px;
         }
         p{
-            font-size: 30px;
+            font-size: 20px;
         }
     }
 }
 /* Separadores de la galeria */
 .separador-galeria{
-    text-align: center;
-    color: black;
-    font-family: 'Lexend', sans-serif;
-    font-style: italic;
-    padding: 20px;
-    background-image: linear-gradient(to bottom, #ece7f8 0%, #beaded 100%);
-    margin: 0px 0px 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 25px 50px 30px;
+    .descripcion-galeria{
+        text-align: center;
+        padding: 30px;
+        background-color: map-get($paleta-claros , colorC3 );
+        border: 2px solid map-get($paleta-claros , colorC5 );
+        border-style: dashed;
+        max-width: 100%;
+        width: 400px;
+        
+        h3{
+            font-size: 30px;
+        }
+        p{
+            font-size: 20px;
+        }
+    }
 }
 /* Galeria-grid */
 .galeria{
@@ -62,7 +80,7 @@ html {
 .galeria-container-3d{
     width: 100%;
     height: 300px;
-    background-image: url("../images/Galeria/Modelado-3D\ -banner.webp");
+    background-image: url("../images/Galeria/BannerAI2.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -72,17 +90,28 @@ html {
     .galeria-text{
         text-align: center;
         color: map-get($paleta-claros , colorC2);
-        text-shadow: 2px 3px black;
+        text-shadow: 1px 2px black;
         font-family: $oswaldFont;
         font-weight: 100;
         font-size: 40px;
+        background-color: map-get($paleta-claros , colorC5);
+        opacity: 0.9;
+        border-radius: 5px;
+        padding: 10px;
+        width: 400px;
+        h3{
+            font-size: 36px;
+        }
+        p{
+            font-size: 20px;
+        }
     }
 }
 /* Banner Galeria UX/UI */
 .galeria-container-ux{
     width: 100%;
     height: 300px;
-    background-image: url("../images/Galeria/UX-ui-banner.webp");
+    background-image: url("../images/Galeria/BannerAI3.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -96,6 +125,16 @@ html {
         font-family: $oswaldFont;
         font-weight: 100;
         font-size: 40px;
+        background-color: map-get($paleta-claros , colorC5);
+        opacity: 0.9;
+        border-radius: 5px;
+        padding: 10px;
+        h3{
+            font-size: 36px;
+        }
+        p{
+            font-size: 20px;
+        }
     }
 }
 

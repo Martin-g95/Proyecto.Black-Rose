@@ -2,8 +2,8 @@
 
 /* Fondo de la pantalla */
 .container-contacto{
-    background-color: map-get($paleta-claros , colorC4);
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='100%25' gradientTransform='rotate(340,932,468)'%3E%3Cstop offset='0' stop-color='%23ffffff'/%3E%3Cstop offset='1' stop-color='%23D7CEFF'/%3E%3C/linearGradient%3E%3Cpattern patternUnits='userSpaceOnUse' id='b' width='1067' height='889.2' x='0' y='0' viewBox='0 0 1080 900'%3E%3Cg fill-opacity='0.07'%3E%3Cpolygon fill='%23444' points='90 150 0 300 180 300'/%3E%3Cpolygon points='90 150 180 0 0 0'/%3E%3Cpolygon fill='%23AAA' points='270 150 360 0 180 0'/%3E%3Cpolygon fill='%23DDD' points='450 150 360 300 540 300'/%3E%3Cpolygon fill='%23999' points='450 150 540 0 360 0'/%3E%3Cpolygon points='630 150 540 300 720 300'/%3E%3Cpolygon fill='%23DDD' points='630 150 720 0 540 0'/%3E%3Cpolygon fill='%23444' points='810 150 720 300 900 300'/%3E%3Cpolygon fill='%23FFF' points='810 150 900 0 720 0'/%3E%3Cpolygon fill='%23DDD' points='990 150 900 300 1080 300'/%3E%3Cpolygon fill='%23444' points='990 150 1080 0 900 0'/%3E%3Cpolygon fill='%23DDD' points='90 450 0 600 180 600'/%3E%3Cpolygon points='90 450 180 300 0 300'/%3E%3Cpolygon fill='%23666' points='270 450 180 600 360 600'/%3E%3Cpolygon fill='%23AAA' points='270 450 360 300 180 300'/%3E%3Cpolygon fill='%23DDD' points='450 450 360 600 540 600'/%3E%3Cpolygon fill='%23999' points='450 450 540 300 360 300'/%3E%3Cpolygon fill='%23999' points='630 450 540 600 720 600'/%3E%3Cpolygon fill='%23FFF' points='630 450 720 300 540 300'/%3E%3Cpolygon points='810 450 720 600 900 600'/%3E%3Cpolygon fill='%23DDD' points='810 450 900 300 720 300'/%3E%3Cpolygon fill='%23AAA' points='990 450 900 600 1080 600'/%3E%3Cpolygon fill='%23444' points='990 450 1080 300 900 300'/%3E%3Cpolygon fill='%23222' points='90 750 0 900 180 900'/%3E%3Cpolygon points='270 750 180 900 360 900'/%3E%3Cpolygon fill='%23DDD' points='270 750 360 600 180 600'/%3E%3Cpolygon points='450 750 540 600 360 600'/%3E%3Cpolygon points='630 750 540 900 720 900'/%3E%3Cpolygon fill='%23444' points='630 750 720 600 540 600'/%3E%3Cpolygon fill='%23AAA' points='810 750 720 900 900 900'/%3E%3Cpolygon fill='%23666' points='810 750 900 600 720 600'/%3E%3Cpolygon fill='%23999' points='990 750 900 900 1080 900'/%3E%3Cpolygon fill='%23999' points='180 0 90 150 270 150'/%3E%3Cpolygon fill='%23444' points='360 0 270 150 450 150'/%3E%3Cpolygon fill='%23FFF' points='540 0 450 150 630 150'/%3E%3Cpolygon points='900 0 810 150 990 150'/%3E%3Cpolygon fill='%23222' points='0 300 -90 450 90 450'/%3E%3Cpolygon fill='%23FFF' points='0 300 90 150 -90 150'/%3E%3Cpolygon fill='%23FFF' points='180 300 90 450 270 450'/%3E%3Cpolygon fill='%23666' points='180 300 270 150 90 150'/%3E%3Cpolygon fill='%23222' points='360 300 270 450 450 450'/%3E%3Cpolygon fill='%23FFF' points='360 300 450 150 270 150'/%3E%3Cpolygon fill='%23444' points='540 300 450 450 630 450'/%3E%3Cpolygon fill='%23222' points='540 300 630 150 450 150'/%3E%3Cpolygon fill='%23AAA' points='720 300 630 450 810 450'/%3E%3Cpolygon fill='%23666' points='720 300 810 150 630 150'/%3E%3Cpolygon fill='%23FFF' points='900 300 810 450 990 450'/%3E%3Cpolygon fill='%23999' points='900 300 990 150 810 150'/%3E%3Cpolygon points='0 600 -90 750 90 750'/%3E%3Cpolygon fill='%23666' points='0 600 90 450 -90 450'/%3E%3Cpolygon fill='%23AAA' points='180 600 90 750 270 750'/%3E%3Cpolygon fill='%23444' points='180 600 270 450 90 450'/%3E%3Cpolygon fill='%23444' points='360 600 270 750 450 750'/%3E%3Cpolygon fill='%23999' points='360 600 450 450 270 450'/%3E%3Cpolygon fill='%23666' points='540 600 630 450 450 450'/%3E%3Cpolygon fill='%23222' points='720 600 630 750 810 750'/%3E%3Cpolygon fill='%23FFF' points='900 600 810 750 990 750'/%3E%3Cpolygon fill='%23222' points='900 600 990 450 810 450'/%3E%3Cpolygon fill='%23DDD' points='0 900 90 750 -90 750'/%3E%3Cpolygon fill='%23444' points='180 900 270 750 90 750'/%3E%3Cpolygon fill='%23FFF' points='360 900 450 750 270 750'/%3E%3Cpolygon fill='%23AAA' points='540 900 630 750 450 750'/%3E%3Cpolygon fill='%23FFF' points='720 900 810 750 630 750'/%3E%3Cpolygon fill='%23222' points='900 900 990 750 810 750'/%3E%3Cpolygon fill='%23222' points='1080 300 990 450 1170 450'/%3E%3Cpolygon fill='%23FFF' points='1080 300 1170 150 990 150'/%3E%3Cpolygon points='1080 600 990 750 1170 750'/%3E%3Cpolygon fill='%23666' points='1080 600 1170 450 990 450'/%3E%3Cpolygon fill='%23DDD' points='1080 900 1170 750 990 750'/%3E%3C/g%3E%3C/pattern%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='100%25' height='100%25'/%3E%3Crect x='0' y='0' fill='url(%23b)' width='100%25' height='100%25'/%3E%3C/svg%3E");
+    background-color: #F5EFFF;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23e5d9f2' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23cdc1ff' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23e2d5f4' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23d6caff' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23ded0f7' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23dfd3ff' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23d9cbf9' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23e7ddff' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23d4c6fc' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23eee6ff' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23cdc1ff' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23f5efff' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
     background-attachment: fixed;
     background-size: cover;
     @extend %flex-c-center;
@@ -19,22 +19,29 @@
         flex-wrap: wrap;
         margin: 50px;
         .contacto-form{
-            background-color: map-get($paleta-claros, colorC3);
+            background-color: map-get($paleta-claros, colorC1);
             border-top-left-radius: 20px;
             border-bottom-left-radius: 20px;
-            box-shadow: 0px 0px 20px map-get($bordes-celestes, colorB1);
+            box-shadow: 0px 0px 20px map-get($bordes-celestes, colorB2);
             max-width: 100%;
             width: 700px;
             height: 725px;
             @extend %flex-c-center;
+            border: 0.5px solid grey;
             .title-contacto{
                 text-align: center;
                 padding: 30px;
-                font-size: 30px;
+                h1{
+                    font-size: 36px;
+                }
+                p{
+                    font-size: 20px;
+                }
             }
             .subtitulo-contacto{
                 text-align: center;
                 margin: 10px;
+                font-size: 25px;
             }
             .redes-sociales{
                 display: flex;
@@ -45,29 +52,33 @@
                 .botones-redes{
                     width: 60px;
                     height: 60px;
+                    &:hover{
+                        transform: scale(1.05);
+                        transition: 0.3s;
+                    }
                 }
             }
         }
-
     }
 
 /* Esto es el formulario */
 .formulario{
-    background-color: map-get($paleta-claros, colorC3 );
+    background-color: map-get($paleta-claros, colorC1 );
     width: auto;
     height: 725px;
     padding: 20px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-    box-shadow: 0px 0px 20px map-get($bordes-celestes , colorB1 );
+    box-shadow: 0px 0px 20px map-get($bordes-celestes , colorB2 );
     max-width: 100%;
     width: 400px;
+    border: 0.5px solid grey;
     .form-container{
         display: flex;
         flex-direction: column;
         .form-placeholder{
             font-size: 18px;
-            background-color: map-get($paleta-medio , colorM4 );
+            background-color: map-get($paleta-claros , colorC2 );
             margin-top: 10px;
             width: 100%;
             height: 55px;
@@ -81,7 +92,7 @@
         height: 200px;
         .form-container-area{
             font-size: 18px;
-            background-color: map-get($paleta-medio, colorM4 );
+            background-color: map-get($paleta-claros, colorC2 );
             margin-top: 10px;
             width: 100%;
             height: 175px;
@@ -95,7 +106,7 @@
         margin-top: 10px;
         padding-top: 10px;
         .interes-contenedor{
-            background-color: map-get($paleta-medio, colorM4 );
+            background-color: map-get($paleta-claros, colorC2 );
             border: 2px solid #383954;
             border-radius: 5px;
             text-align: center;
@@ -125,30 +136,36 @@
     justify-content: end;
     align-items: end;
     .submit-button{
-        background-color: #7b7ed5;
+        background-color: map-get($paleta-claros , colorC3 );
         text-decoration: none;
         font-family: var(--over-pass);
         width: 70px;
         height: 40px;
         padding: 5px;
         border-radius: 10px;
+        &:hover{
+            background-color: map-get($paleta-claros ,colorC4 );
+            transition: 0.2s;
+        }
     }
 }
 
 /* El Iframe de youtube */
 .contacto-youtube{
-    box-shadow: 3px 3px 50px rgb(247, 139, 139);
-    border-radius: 10px;
-    background: rgb(250,164,164);
-    background: radial-gradient(circle, rgba(250,164,164,0.5592612044817927) 0%, rgba(251,11,11,0.28755252100840334) 49%);
+    box-shadow: 3px 3px 20px map-get($paleta-claros , colorC4 );
+    border-radius: 5px;
+    background: rgb(229,217,242);
+    background: radial-gradient(circle, rgba(229,217,242,1) 47%, rgba(205,193,255,0.7525385154061625) 88%);
     margin: 20px;
     padding: 10px;
+    max-width: 100%;
+    width:1100px;
     .subtitulo-youtube{
         font-family: 'Roboto', sans-serif;
         font-size: 32px;
         letter-spacing: 1px;
         word-spacing: 1px;
-        color: #ff0000;
+        color: map-get($paleta-claros , colorC4);
         text-shadow: 1px 2px 2px black;
         font-weight: bold;
         text-decoration: none;
@@ -169,31 +186,33 @@
         font-style: normal;
         font-variant: normal;
         text-transform: none;
+        padding: 10px;
     }
 }
 
 
-.container-iframe{
-    box-shadow: 3px 3px 50px rgb(247, 139, 139);
-    border-radius: 10px;
-    background: rgb(250,164,164);
-    background: radial-gradient(circle, rgba(250,164,164,0.5592612044817927) 0%, rgba(251,11,11,0.28755252100840334) 49%);
-    margin: 20px;
-    padding: 10px;
-    width: 600px;
-    .iframe-video{
-        position: relative;
-        overflow: hidden;
-        width: 100%;
-        padding-top: 56.25%;
+    .container-iframe{
+        box-shadow: 3px 3px 20px map-get($paleta-claros , colorC4 );
+        border-radius: 10px;
+        background: rgb(229,217,242);
+        background: radial-gradient(circle, rgba(229,217,242,1) 47%, rgba(205,193,255,0.7525385154061625) 88%);
+        margin: 20px;
+        padding: 10px;
+        width: 525px;
+        .iframe-video{
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            padding-top: 56.25%;
+        }
+        .iframe-video iframe{
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+        }
     }
-    .iframe-video iframe{
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        width: 100%;
-        height: 100%;
-    }
-}
+
