@@ -34,42 +34,28 @@
                     color:map-get($paleta-claros, colorC5);
                 }
                 .img-bg-il{
-                    background-image: url(../images/Inicio/3.jpg);
+                    background-image: url(../images/Inicio/3.webp);
                     background-size: cover;
+                    overflow:hidden;
                     &:hover{
                         transform:scale(1.03);
                         transition:0.3s;
-                        animation-name: img-anim-il;
-                        animation-iteration-count: infinite;
-                        animation-timing-function: ease;
-                        animation-duration: 4s;
-                        animation-delay: 0.3s;
                     }
                 }
                 .img-bg-3d{
-                    background-image: url(../images/Inicio/1.jpg);
+                    background-image: url(../images/Inicio/1.webp);
                     background-size: cover;
                     &:hover{
                         transform:scale(1.03);
                         transition:0.3s;
-                        animation-name: img-anim-3d;
-                        animation-iteration-count: infinite;
-                        animation-timing-function: ease;
-                        animation-duration: 4s;
-                        animation-delay: 0.3s;
                     }
                 }
                 .img-bg-ux{
-                    background-image: url(../images/Inicio/2.jpg);
+                    background-image: url(../images/Inicio/2.webp);
                     background-size: cover;
                     &:hover{
                         transform:scale(1.03);
                         transition:0.3s;
-                        animation-name: img-anim-ux;
-                        animation-iteration-count: infinite;
-                        animation-timing-function: ease;
-                        animation-duration: 4s;
-                        animation-delay: 0.3s;
                     }
                 }
                 .imagen-contenido {
@@ -84,6 +70,7 @@
                 }
             }
 }
+
 /* #####----Animaciones/Index-----##### */
 .animate__animated.animate__slideInDown {
     --animate-duration: 0.8s;
@@ -91,40 +78,3 @@
 .animate__animated.animate__fadeInLeft{
     --animate-duration: 0.8s;
 }
-
-@keyframes img-anim-il{
-33%{
-    background-image: url("../images/Inicio/Bn-anim/BN1.webp");
-}
-66%{
-    background-image: url("../images/Inicio/Bn-anim/BN2.webp");
-}
-99%{
-    background-image: url("../images/Inicio/Bn-anim/BN3.webp");
-}
-}
-
-@keyframes img-anim-3d{
-33%{
-    background-image: url("../images/Inicio/Bn-anim/BN4.webp");
-}
-66%{
-    background-image: url("../images/Inicio/Bn-anim/BN5.webp");
-}
-99%{
-    background-image: url("../images/Inicio/Bn-anim/BN6.webp");
-
-}
-}
-@keyframes img-anim-ux{
-    33%{
-        background-image: url("../images/Inicio/Bn-anim/BN7.webp");
-    }
-    66%{
-        background-image: url("../images/Inicio/Bn-anim/BN8.webp");
-    }
-    99%{
-        background-image: url("../images/Inicio/Bn-anim/BN9.webp");
-    
-    }
-    }

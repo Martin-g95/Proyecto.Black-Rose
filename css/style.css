@@ -110,43 +110,29 @@ header .container-fluid {
   color: #7371FC;
 }
 .fondo-inicio .banner-img .img-bg-il {
-  background-image: url(../images/Inicio/3.jpg);
+  background-image: url(../images/Inicio/3.webp);
   background-size: cover;
+  overflow: hidden;
 }
 .fondo-inicio .banner-img .img-bg-il:hover {
   transform: scale(1.03);
   transition: 0.3s;
-  animation-name: img-anim-il;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease;
-  animation-duration: 4s;
-  animation-delay: 0.3s;
 }
 .fondo-inicio .banner-img .img-bg-3d {
-  background-image: url(../images/Inicio/1.jpg);
+  background-image: url(../images/Inicio/1.webp);
   background-size: cover;
 }
 .fondo-inicio .banner-img .img-bg-3d:hover {
   transform: scale(1.03);
   transition: 0.3s;
-  animation-name: img-anim-3d;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease;
-  animation-duration: 4s;
-  animation-delay: 0.3s;
 }
 .fondo-inicio .banner-img .img-bg-ux {
-  background-image: url(../images/Inicio/2.jpg);
+  background-image: url(../images/Inicio/2.webp);
   background-size: cover;
 }
 .fondo-inicio .banner-img .img-bg-ux:hover {
   transform: scale(1.03);
   transition: 0.3s;
-  animation-name: img-anim-ux;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease;
-  animation-duration: 4s;
-  animation-delay: 0.3s;
 }
 .fondo-inicio .banner-img .imagen-contenido {
   width: 200px;
@@ -167,39 +153,6 @@ header .container-fluid {
   --animate-duration: 0.8s;
 }
 
-@keyframes img-anim-il {
-  33% {
-    background-image: url("../images/Inicio/Bn-anim/BN1.webp");
-  }
-  66% {
-    background-image: url("../images/Inicio/Bn-anim/BN2.webp");
-  }
-  99% {
-    background-image: url("../images/Inicio/Bn-anim/BN3.webp");
-  }
-}
-@keyframes img-anim-3d {
-  33% {
-    background-image: url("../images/Inicio/Bn-anim/BN4.webp");
-  }
-  66% {
-    background-image: url("../images/Inicio/Bn-anim/BN5.webp");
-  }
-  99% {
-    background-image: url("../images/Inicio/Bn-anim/BN6.webp");
-  }
-}
-@keyframes img-anim-ux {
-  33% {
-    background-image: url("../images/Inicio/Bn-anim/BN7.webp");
-  }
-  66% {
-    background-image: url("../images/Inicio/Bn-anim/BN8.webp");
-  }
-  99% {
-    background-image: url("../images/Inicio/Bn-anim/BN9.webp");
-  }
-}
 /* #####----SOBRE-MI-----##### */
 /* Titulo con descripcion e imagen */
 main {
@@ -599,6 +552,7 @@ html {
 .formulario-general .contacto-form .redes-sociales .botones-redes {
   width: 60px;
   height: 60px;
+  margin: 10px;
 }
 .formulario-general .contacto-form .redes-sociales .botones-redes:hover {
   transform: scale(1.05);
@@ -652,10 +606,8 @@ html {
   padding-top: 10px;
 }
 .formulario .form-interes .interes-contenedor {
-  background-color: #F5EFFF;
-  border: 2px solid #383954;
   border-radius: 5px;
-  text-align: center;
+  text-align: end;
   font-weight: bold;
   height: 50px;
   margin-bottom: 10px;
@@ -667,6 +619,9 @@ html {
   display: flex;
   flex-direction: column;
   margin: 10px 10px;
+}
+.formulario .form-interes .interes-contenedor .interes-items .input-check {
+  border-radius: 2px;
 }
 
 /* Estos son los items*/
@@ -993,6 +948,7 @@ html {
   }
   .galeria-container-il .galeria-text p {
     font-size: 20px;
+    text-shadow: 1px 1px black;
   }
   .galeria-container-3d {
     height: 200px;
@@ -1002,6 +958,7 @@ html {
   }
   .galeria-container-3d .galeria-text p {
     font-size: 25px;
+    text-shadow: 1px 1px black;
   }
   .galeria-container-ux {
     height: 200px;
@@ -1011,28 +968,33 @@ html {
   }
   .galeria-container-ux .galeria-text p {
     font-size: 25px;
+    text-shadow: 1px 1px black;
   }
 }
 /* Media queries---SOBRE MI */
 /* Media queries-- descripcion */
-@media (min-width: 375px) and (max-width: 425px) {
+@media (min-width: 360px) and (max-width: 425px) {
+  .sobre-mi-contenedor {
+    justify-content: center;
+    align-items: center;
+  }
   .sobre-mi-contenedor .sobre-mi-textos {
     width: 300px;
-    margin: 0px 0px 50px 25px;
+    margin: 0px;
   }
   .sobre-mi-contenedor .sobre-mi-textos .sobre-mi-texto {
     font-size: 16px;
     color: #F5EFFF;
   }
 }
-@media (min-width: 375px) and (max-width: 425px) {
+@media (min-width: 360px) and (max-width: 425px) {
   .herramientas-inicio .herramientas-subtitulo {
     width: 350px;
     margin: 10px 10px;
     text-align: center;
   }
   .herramientas-inicio .herramientas-subtitulo .herramientas-text {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 @media (min-width: 375px) and (max-width: 425px) {
@@ -1047,7 +1009,7 @@ html {
     border-radius: 0px 0px 10px 10px;
   }
 }
-@media (min-width: 375px) and (max-width: 425px) {
+@media (min-width: 360px) and (max-width: 425px) {
   .section-clientes .titulo-clientes {
     width: 350px;
     margin: 50px 0px 50px 0px;
@@ -1074,7 +1036,7 @@ html {
   }
 }
 /* Media queries--- Contacto--- */
-@media (min-width: 375px) and (max-width: 425px) {
+@media (min-width: 360px) and (max-width: 425px) {
   .formulario-general .contacto-form {
     width: 330px;
     margin: 0px;
@@ -1083,16 +1045,16 @@ html {
   }
   .formulario-general .contacto-form .title-contacto {
     padding: 5;
-    font-size: 25px;
+    font-size: 20px;
   }
   .formulario-general .contacto-form .redes-sociales {
     flex-direction: column;
     gap: 10px;
   }
   .formulario-general .contacto-form .redes-sociales .botones-redes {
-    height: 75px;
-    width: 75px;
-    margin: 5px;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
   }
   .formulario-general .formulario {
     width: 330px;
@@ -1100,7 +1062,7 @@ html {
     border-radius: 0px 0px 20px 20px;
   }
 }
-@media (min-width: 375px) and (max-width: 425px) {
+@media (min-width: 360px) and (max-width: 425px) {
   .contacto-youtube {
     width: 360px;
     box-shadow: none;
@@ -1118,7 +1080,7 @@ html {
   }
 }
 /* Media queries--- SERVICIOS--- */
-@media (min-width: 375px) and (max-width: 425px) {
+@media (min-width: 360px) and (max-width: 425px) {
   .servicios-titulos .contenedor-titulo h1 {
     font-size: 36px;
   }
@@ -1126,7 +1088,7 @@ html {
     font-size: 20px;
   }
 }
-@media (min-width: 375px) and (max-width: 425px) {
+@media (min-width: 360px) and (max-width: 425px) {
   .seccion-faq .cartas-faq {
     grid-template-columns: 320px;
     grid-template-rows: 320px;
@@ -1147,7 +1109,7 @@ html {
   }
 }
 /* Media queries--- HEADER--- */
-@media (min-width: 375px) and (max-width: 425px) {
+@media (min-width: 360px) and (max-width: 425px) {
   .navbar .container-fluid a img {
     width: 60px;
     height: 60px;
